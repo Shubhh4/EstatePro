@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\Project 3\\EstatePro\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{25C3812E-2A3E-4DEE-8E70-51D0218A9A82}|EstatePro\\EstatePro.csproj|e:\\project 3\\estatepro\\estatepro\\wwwroot\\about.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{25C3812E-2A3E-4DEE-8E70-51D0218A9A82}|EstatePro\\EstatePro.csproj|solutionrelative:estatepro\\wwwroot\\about.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "about.html",
+              "DocumentMoniker": "E:\\Project 3\\EstatePro\\EstatePro\\wwwroot\\about.html",
+              "RelativeDocumentMoniker": "EstatePro\\wwwroot\\about.html",
+              "ToolTip": "E:\\Project 3\\EstatePro\\EstatePro\\wwwroot\\about.html",
+              "RelativeToolTip": "EstatePro\\wwwroot\\about.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-05-26T17:43:17.407Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
