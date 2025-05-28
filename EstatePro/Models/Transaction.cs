@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel.DataAnnotations.Schema;
+using System.Transactions;
 
 namespace EstatePro.Models
 {
@@ -6,15 +7,18 @@ namespace EstatePro.Models
     {
         public int TransactionId { get; set; }
 
-        [ForeignKey("Booking")]
-        public int BookingId { get; set; }
-        public Booking Booking { get; set; }
+        [ForeignKey("User")]
+        public int UserId { get; set; }
+        public User User { get; set; }
+
+        [ForeignKey("Property")]
+        public int PropertyId { get; set; }
+        public Property Property { get; set; }
 
         public decimal Amount { get; set; }
-        public PaymentMethod PaymentMethod { get; set; }
-        public PaymentStatus PaymentStatus { get; set; } = PaymentStatus.Pending;
-        public DateTime TransactionDate { get; set; } = DateTime.UtcNow;
+
+        public DateTime TransactionDate { get; set; }
+
+        public TransactionStatus Status { get; set; }
     }
-
-
 }

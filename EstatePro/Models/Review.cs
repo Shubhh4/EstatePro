@@ -15,10 +15,12 @@ namespace EstatePro.Models
         public int PropertyId { get; set; }
         public Property Property { get; set; }
 
-        public int Rating { get; set; } // Use range validation
-        public string? ReviewText { get; set; }
+        [Range(1, 5)]
+        public int Rating { get; set; }
 
-        public DateTime ReviewDate { get; set; } = DateTime.UtcNow;
+        public string ReviewText { get; set; }
+
+        public DateTime ReviewDate { get; set; }
     }
 
 

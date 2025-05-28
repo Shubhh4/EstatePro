@@ -23,17 +23,19 @@ namespace EstatePro.Models
         public string PhoneNumber { get; set; }
 
         [Required]
-        public string Role { get; set; } // Enum: Admin, Agent, Buyer, Seller, Tenant
+        public string Role { get; set; } // Admin, Agent, Buyer, Seller, Tenant
 
         public string ProfilePicture { get; set; }
 
-        public DateTime CreatedAt { get; set; } = DateTime.Now;
+        public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
 
-        public ICollection<Property> Properties { get; set; }
-        public ICollection<Booking> Bookings { get; set; }
-        public ICollection<Appointment> Appointments { get; set; }
-        public ICollection<Review> Reviews { get; set; }
-        public ICollection<LeaseAgreement> LeaseAgreements { get; set; }
+        // Navigation
+        public ICollection<Property> Properties { get; set; } = new List<Property>();
+        public ICollection<Booking> Bookings { get; set; } = new List<Booking>();
+        public ICollection<Appointment> Appointments { get; set; } = new List<Appointment>();
+        public ICollection<Review> Reviews { get; set; } = new List<Review>();
+        public ICollection<LeaseAgreement> LeaseAgreements { get; set; } = new List<LeaseAgreement>();
+        public ICollection<Transaction> Transactions { get; set; } = new List<Transaction>();
     }
 
 }

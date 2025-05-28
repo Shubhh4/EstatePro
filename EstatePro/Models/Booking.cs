@@ -15,9 +15,11 @@ namespace EstatePro.Models
         public int UserId { get; set; }
         public User User { get; set; }
 
-        public BookingStatus Status { get; set; } = BookingStatus.Pending;
-        public DateTime BookingDate { get; set; } = DateTime.UtcNow;
+        public BookingStatus Status { get; set; }
+
+        public DateTime BookingDate { get; set; }
     }
+
 
 
 }

@@ -1,9 +1,11 @@
-﻿using System.ComponentModel.DataAnnotations.Schema;
+﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace EstatePro.Models
 {
     public class LeaseAgreement
     {
+        [Key]
         public int LeaseId { get; set; }
 
         [ForeignKey("Property")]
@@ -17,7 +19,10 @@ namespace EstatePro.Models
         public DateTime LeaseStartDate { get; set; }
         public DateTime LeaseEndDate { get; set; }
 
+        [Column(TypeName = "decimal(18,2)")]
         public decimal RentAmount { get; set; }
+
+        [Column(TypeName = "decimal(18,2)")]
         public decimal SecurityDeposit { get; set; }
     }
 
