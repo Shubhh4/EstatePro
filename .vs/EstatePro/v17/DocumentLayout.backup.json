@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "E:\\Project 3\\EstatePro\\",
+  "WorkspaceRootPath": "D:\\MTS\\Project3\\EstatePro\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{25C3812E-2A3E-4DEE-8E70-51D0218A9A82}|EstatePro\\EstatePro.csproj|e:\\project 3\\estatepro\\estatepro\\wwwroot\\about.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{25C3812E-2A3E-4DEE-8E70-51D0218A9A82}|EstatePro\\EstatePro.csproj|d:\\mts\\project3\\estatepro\\estatepro\\wwwroot\\about.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{25C3812E-2A3E-4DEE-8E70-51D0218A9A82}|EstatePro\\EstatePro.csproj|solutionrelative:estatepro\\wwwroot\\about.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
@@ -14,24 +14,80 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 10,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e506b91c-c606-466a-90a9-123d1d1e12b3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{74946827-37a0-11d2-a273-00c04f8ef4ff}"
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "about.html",
-              "DocumentMoniker": "E:\\Project 3\\EstatePro\\EstatePro\\wwwroot\\about.html",
+              "DocumentMoniker": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\wwwroot\\about.html",
               "RelativeDocumentMoniker": "EstatePro\\wwwroot\\about.html",
-              "ToolTip": "E:\\Project 3\\EstatePro\\EstatePro\\wwwroot\\about.html",
+              "ToolTip": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\wwwroot\\about.html",
               "RelativeToolTip": "EstatePro\\wwwroot\\about.html",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
               "WhenOpened": "2025-05-26T17:43:17.407Z",
               "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        },
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
             }
           ]
         }

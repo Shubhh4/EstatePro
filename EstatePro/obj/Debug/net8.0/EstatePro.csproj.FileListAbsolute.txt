@@ -27,3 +27,38 @@ E:\Project 3\EstatePro\EstatePro\obj\Debug\net8.0\refint\EstatePro.dll
 E:\Project 3\EstatePro\EstatePro\obj\Debug\net8.0\EstatePro.pdb
 E:\Project 3\EstatePro\EstatePro\obj\Debug\net8.0\EstatePro.genruntimeconfig.cache
 E:\Project 3\EstatePro\EstatePro\obj\Debug\net8.0\ref\EstatePro.dll
+D:\MTS\Project3\EstatePro\EstatePro\bin\Debug\net8.0\appsettings.Development.json
+D:\MTS\Project3\EstatePro\EstatePro\bin\Debug\net8.0\appsettings.json
+D:\MTS\Project3\EstatePro\EstatePro\bin\Debug\net8.0\EstatePro.staticwebassets.runtime.json
+D:\MTS\Project3\EstatePro\EstatePro\bin\Debug\net8.0\EstatePro.staticwebassets.endpoints.json
+D:\MTS\Project3\EstatePro\EstatePro\bin\Debug\net8.0\EstatePro.exe
+D:\MTS\Project3\EstatePro\EstatePro\bin\Debug\net8.0\EstatePro.deps.json
+D:\MTS\Project3\EstatePro\EstatePro\bin\Debug\net8.0\EstatePro.runtimeconfig.json
+D:\MTS\Project3\EstatePro\EstatePro\bin\Debug\net8.0\EstatePro.dll
+D:\MTS\Project3\EstatePro\EstatePro\bin\Debug\net8.0\EstatePro.pdb
+D:\MTS\Project3\EstatePro\EstatePro\obj\Debug\net8.0\EstatePro.GeneratedMSBuildEditorConfig.editorconfig
+D:\MTS\Project3\EstatePro\EstatePro\obj\Debug\net8.0\EstatePro.AssemblyInfoInputs.cache
+D:\MTS\Project3\EstatePro\EstatePro\obj\Debug\net8.0\EstatePro.AssemblyInfo.cs
+D:\MTS\Project3\EstatePro\EstatePro\obj\Debug\net8.0\EstatePro.csproj.CoreCompileInputs.cache
+D:\MTS\Project3\EstatePro\EstatePro\obj\Debug\net8.0\EstatePro.MvcApplicationPartsAssemblyInfo.cache
+D:\MTS\Project3\EstatePro\EstatePro\obj\Debug\net8.0\EstatePro.RazorAssemblyInfo.cache
+D:\MTS\Project3\EstatePro\EstatePro\obj\Debug\net8.0\EstatePro.RazorAssemblyInfo.cs
+D:\MTS\Project3\EstatePro\EstatePro\obj\Debug\net8.0\EstatePro.sourcelink.json
+D:\MTS\Project3\EstatePro\EstatePro\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\MTS\Project3\EstatePro\EstatePro\obj\Debug\net8.0\scopedcss\bundle\EstatePro.styles.css
+D:\MTS\Project3\EstatePro\EstatePro\obj\Debug\net8.0\scopedcss\projectbundle\EstatePro.bundle.scp.css
+D:\MTS\Project3\EstatePro\EstatePro\obj\Debug\net8.0\staticwebassets.build.json
+D:\MTS\Project3\EstatePro\EstatePro\obj\Debug\net8.0\staticwebassets.development.json
+D:\MTS\Project3\EstatePro\EstatePro\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+D:\MTS\Project3\EstatePro\EstatePro\obj\Debug\net8.0\staticwebassets\msbuild.EstatePro.Microsoft.AspNetCore.StaticWebAssets.props
+D:\MTS\Project3\EstatePro\EstatePro\obj\Debug\net8.0\staticwebassets\msbuild.EstatePro.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+D:\MTS\Project3\EstatePro\EstatePro\obj\Debug\net8.0\staticwebassets\msbuild.build.EstatePro.props
+D:\MTS\Project3\EstatePro\EstatePro\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.EstatePro.props
+D:\MTS\Project3\EstatePro\EstatePro\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.EstatePro.props
+D:\MTS\Project3\EstatePro\EstatePro\obj\Debug\net8.0\staticwebassets.pack.json
+D:\MTS\Project3\EstatePro\EstatePro\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+D:\MTS\Project3\EstatePro\EstatePro\obj\Debug\net8.0\EstatePro.dll
+D:\MTS\Project3\EstatePro\EstatePro\obj\Debug\net8.0\refint\EstatePro.dll
+D:\MTS\Project3\EstatePro\EstatePro\obj\Debug\net8.0\EstatePro.pdb
+D:\MTS\Project3\EstatePro\EstatePro\obj\Debug\net8.0\EstatePro.genruntimeconfig.cache
+D:\MTS\Project3\EstatePro\EstatePro\obj\Debug\net8.0\ref\EstatePro.dll
