@@ -15,9 +15,9 @@ namespace EstatePro.Models
         public int UserId { get; set; }
         public User User { get; set; }
 
-        public BookingStatus Status { get; set; }
+        public BookingStatus? Status { get; set; }
 
-        public DateTime BookingDate { get; set; }
+        public DateTime? BookingDate { get; set; }
     }
 
 

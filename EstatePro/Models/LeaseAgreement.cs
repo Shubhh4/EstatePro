@@ -16,14 +16,14 @@ namespace EstatePro.Models
         public int TenantId { get; set; }
         public User Tenant { get; set; }
 
-        public DateTime LeaseStartDate { get; set; }
-        public DateTime LeaseEndDate { get; set; }
+        public DateTime? LeaseStartDate { get; set; }
+        public DateTime? LeaseEndDate { get; set; }
 
         [Column(TypeName = "decimal(18,2)")]
-        public decimal RentAmount { get; set; }
+        public decimal? RentAmount { get; set; }
 
         [Column(TypeName = "decimal(18,2)")]
-        public decimal SecurityDeposit { get; set; }
+        public decimal? SecurityDeposit { get; set; }
     }
 
 

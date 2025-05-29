@@ -16,11 +16,11 @@ namespace EstatePro.Models
         public Property Property { get; set; }
 
         [Range(1, 5)]
-        public int Rating { get; set; }
+        public int? Rating { get; set; }
 
-        public string ReviewText { get; set; }
+        public string? ReviewText { get; set; }
 
-        public DateTime ReviewDate { get; set; }
+        public DateTime? ReviewDate { get; set; }
     }
 
 

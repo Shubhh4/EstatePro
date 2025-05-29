@@ -8,26 +8,26 @@ namespace EstatePro.Models
         public int UserId { get; set; }
 
         [Required, StringLength(50)]
-        public string FirstName { get; set; }
+        public string? FirstName { get; set; }
 
         [Required, StringLength(50)]
-        public string LastName { get; set; }
+        public string? LastName { get; set; }
 
         [Required, EmailAddress, StringLength(100)]
-        public string Email { get; set; }
+        public string? Email { get; set; }
 
         [Required]
-        public string PasswordHash { get; set; }
+        public string? PasswordHash { get; set; }
 
         [Phone]
-        public string PhoneNumber { get; set; }
+        public string? PhoneNumber { get; set; }
 
         [Required]
-        public string Role { get; set; } // Admin, Agent, Buyer, Seller, Tenant
+        public string? Role { get; set; } // Admin, Agent, Buyer, Seller, Tenant
 
-        public string ProfilePicture { get; set; }
+        public string? ProfilePicture { get; set; }
 
-        public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
+        public DateTime? CreatedAt { get; set; } = DateTime.UtcNow;
 
         // Navigation
         public ICollection<Property> Properties { get; set; } = new List<Property>();

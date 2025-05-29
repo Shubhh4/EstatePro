@@ -24,6 +24,7 @@
 
     public enum OwnerRole
     {
+        Admin,
         Agent,
         Seller
     }
