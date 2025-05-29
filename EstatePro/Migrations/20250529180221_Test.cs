@@ -144,7 +144,8 @@ namespace EstatePro.Migrations
                     LeaseStartDate = table.Column<DateTime>(type: "datetime2", nullable: true),
                     LeaseEndDate = table.Column<DateTime>(type: "datetime2", nullable: true),
                     RentAmount = table.Column<decimal>(type: "decimal(18,2)", nullable: true),
-                    SecurityDeposit = table.Column<decimal>(type: "decimal(18,2)", nullable: true)
+                    SecurityDeposit = table.Column<decimal>(type: "decimal(18,2)", nullable: true),
+                    LeaseStatus = table.Column<int>(type: "int", nullable: false)
                 },
                 constraints: table =>
                 {
@@ -202,7 +203,8 @@ namespace EstatePro.Migrations
                     PropertyId = table.Column<int>(type: "int", nullable: false),
                     Amount = table.Column<decimal>(type: "decimal(18,2)", nullable: true),
                     TransactionDate = table.Column<DateTime>(type: "datetime2", nullable: true),
-                    Status = table.Column<int>(type: "int", nullable: true)
+                    Status = table.Column<int>(type: "int", nullable: true),
+                    TransactionType = table.Column<int>(type: "int", nullable: false)
                 },
                 constraints: table =>
                 {

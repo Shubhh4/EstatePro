@@ -23,7 +23,7 @@ namespace EstatePro.Models
         public string? PhoneNumber { get; set; }
 
         [Required]
-        public string? Role { get; set; } // Admin, Agent, Buyer, Seller, Tenant
+        public UserRole Role { get; set; } // Admin, Agent, Buyer, Seller, Tenant
 
         public string? ProfilePicture { get; set; }
 

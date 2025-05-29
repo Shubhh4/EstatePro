@@ -95,6 +95,11 @@ namespace EstatePro.Data
                 .WithMany(u => u.Properties)
                 .HasForeignKey(p => p.OwnerId)
                 .OnDelete(DeleteBehavior.Restrict);
+
+            modelBuilder.Entity<User>()
+                .Property(u => u.Role)
+                .HasConversion<string>();
+
         }
     }
 }

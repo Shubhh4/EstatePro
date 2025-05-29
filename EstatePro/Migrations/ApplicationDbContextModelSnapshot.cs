@@ -94,6 +94,9 @@ namespace EstatePro.Migrations
                     b.Property<DateTime?>("LeaseStartDate")
                         .HasColumnType("datetime2");
 
+                    b.Property<int>("LeaseStatus")
+                        .HasColumnType("int");
+
                     b.Property<int>("PropertyId")
                         .HasColumnType("int");
 
@@ -282,6 +285,9 @@ namespace EstatePro.Migrations
 
                     b.Property<DateTime?>("TransactionDate")
                         .HasColumnType("datetime2");
+
+                    b.Property<int>("TransactionType")
+                        .HasColumnType("int");
 
                     b.Property<int>("UserId")
                         .HasColumnType("int");

@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace EstatePro.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20250529151432_Test2")]
-    partial class Test2
+    [Migration("20250529180221_Test")]
+    partial class Test
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -96,6 +96,9 @@ namespace EstatePro.Migrations
 
                     b.Property<DateTime?>("LeaseStartDate")
                         .HasColumnType("datetime2");
+
+                    b.Property<int>("LeaseStatus")
+                        .HasColumnType("int");
 
                     b.Property<int>("PropertyId")
                         .HasColumnType("int");
@@ -285,6 +288,9 @@ namespace EstatePro.Migrations
 
                     b.Property<DateTime?>("TransactionDate")
                         .HasColumnType("datetime2");
+
+                    b.Property<int>("TransactionType")
+                        .HasColumnType("int");
 
                     b.Property<int>("UserId")
                         .HasColumnType("int");
