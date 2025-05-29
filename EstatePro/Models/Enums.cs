@@ -80,4 +80,18 @@
         Seller,
         Tenant
     }
+
+    public enum LeaseStatus
+    {
+        Pending,
+        Accepted,
+        Rejected
+    }
+
+    public enum TransactionType
+    {
+        Deposit,
+        Rent,
+        Other
+    }
 }

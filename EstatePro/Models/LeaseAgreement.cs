@@ -24,6 +24,7 @@ namespace EstatePro.Models
 
         [Column(TypeName = "decimal(18,2)")]
         public decimal? SecurityDeposit { get; set; }
+        public LeaseStatus LeaseStatus { get; set; } = LeaseStatus.Pending;
     }
 
 

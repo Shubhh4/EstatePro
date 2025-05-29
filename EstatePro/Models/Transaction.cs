@@ -20,5 +20,6 @@ namespace EstatePro.Models
         public DateTime? TransactionDate { get; set; }
 
         public TransactionStatus? Status { get; set; }
+        public TransactionType TransactionType { get; set; }
     }
 }
