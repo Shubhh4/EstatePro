@@ -6,11 +6,26 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace EstatePro.Migrations
 {
     /// <inheritdoc />
-    public partial class Test : Migration
+    public partial class test : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
         {
+            migrationBuilder.CreateTable(
+                name: "Reports",
+                columns: table => new
+                {
+                    ReportId = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    ReportType = table.Column<int>(type: "int", nullable: false),
+                    ReportData = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    CreatedAt = table.Column<DateTime>(type: "datetime2", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Reports", x => x.ReportId);
+                });
+
             migrationBuilder.CreateTable(
                 name: "Users",
                 columns: table => new
@@ -206,6 +221,36 @@ namespace EstatePro.Migrations
                         onDelete: ReferentialAction.Restrict);
                 });
 
+            migrationBuilder.CreateTable(
+                name: "Rents",
+                columns: table => new
+                {
+                    RentId = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    LeaseId = table.Column<int>(type: "int", nullable: false),
+                    MonthYear = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    DueDate = table.Column<DateTime>(type: "datetime2", nullable: false),
+                    Amount = table.Column<decimal>(type: "decimal(18,2)", nullable: false),
+                    Status = table.Column<int>(type: "int", nullable: false),
+                    TransactionId = table.Column<int>(type: "int", nullable: true),
+                    CreatedAt = table.Column<DateTime>(type: "datetime2", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Rents", x => x.RentId);
+                    table.ForeignKey(
+                        name: "FK_Rents_LeaseAgreements_LeaseId",
+                        column: x => x.LeaseId,
+                        principalTable: "LeaseAgreements",
+                        principalColumn: "LeaseId",
+                        onDelete: ReferentialAction.Cascade);
+                    table.ForeignKey(
+                        name: "FK_Rents_Transactions_TransactionId",
+                        column: x => x.TransactionId,
+                        principalTable: "Transactions",
+                        principalColumn: "TransactionId");
+                });
+
             migrationBuilder.CreateIndex(
                 name: "IX_Appointments_PropertyId",
                 table: "Appointments",
@@ -242,6 +287,16 @@ namespace EstatePro.Migrations
                 column: "OwnerId");
 
             migrationBuilder.CreateIndex(
+                name: "IX_Rents_LeaseId",
+                table: "Rents",
+                column: "LeaseId");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_Rents_TransactionId",
+                table: "Rents",
+                column: "TransactionId");
+
+            migrationBuilder.CreateIndex(
                 name: "IX_Reviews_PropertyId",
                 table: "Reviews",
                 column: "PropertyId");
@@ -272,10 +327,16 @@ namespace EstatePro.Migrations
                 name: "Bookings");
 
             migrationBuilder.DropTable(
-                name: "LeaseAgreements");
+                name: "Rents");
+
+            migrationBuilder.DropTable(
+                name: "Reports");
 
             migrationBuilder.DropTable(
                 name: "Reviews");
+
+            migrationBuilder.DropTable(
+                name: "LeaseAgreements");
 
             migrationBuilder.DropTable(
                 name: "Transactions");

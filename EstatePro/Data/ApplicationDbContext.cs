@@ -16,7 +16,8 @@ namespace EstatePro.Data
         public DbSet<Review> Reviews { get; set; }
         public DbSet<Appointment> Appointments { get; set; }
         public DbSet<Transaction> Transactions { get; set; }
-
+        public DbSet<Report> Reports { get; set; }
+        public DbSet<Rent> Rents { get; set; }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);

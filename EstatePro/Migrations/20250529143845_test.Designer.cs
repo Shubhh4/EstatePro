@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace EstatePro.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20250528185110_Test")]
-    partial class Test
+    [Migration("20250529143845_test")]
+    partial class test
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -176,6 +176,68 @@ namespace EstatePro.Migrations
                     b.HasIndex("OwnerId");
 
                     b.ToTable("Properties");
+                });
+
+            modelBuilder.Entity("EstatePro.Models.Rent", b =>
+                {
+                    b.Property<int>("RentId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("RentId"));
+
+                    b.Property<decimal>("Amount")
+                        .HasColumnType("decimal(18,2)");
+
+                    b.Property<DateTime>("CreatedAt")
+                        .HasColumnType("datetime2");
+
+                    b.Property<DateTime>("DueDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<int>("LeaseId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("MonthYear")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("Status")
+                        .HasColumnType("int");
+
+                    b.Property<int?>("TransactionId")
+                        .HasColumnType("int");
+
+                    b.HasKey("RentId");
+
+                    b.HasIndex("LeaseId");
+
+                    b.HasIndex("TransactionId");
+
+                    b.ToTable("Rents");
+                });
+
+            modelBuilder.Entity("EstatePro.Models.Report", b =>
+                {
+                    b.Property<int>("ReportId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ReportId"));
+
+                    b.Property<DateTime>("CreatedAt")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("ReportData")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("ReportType")
+                        .HasColumnType("int");
+
+                    b.HasKey("ReportId");
+
+                    b.ToTable("Reports");
                 });
 
             modelBuilder.Entity("EstatePro.Models.Review", b =>
@@ -356,6 +418,23 @@ namespace EstatePro.Migrations
                         .IsRequired();
 
                     b.Navigation("Owner");
+                });
+
+            modelBuilder.Entity("EstatePro.Models.Rent", b =>
+                {
+                    b.HasOne("EstatePro.Models.LeaseAgreement", "LeaseAgreement")
+                        .WithMany()
+                        .HasForeignKey("LeaseId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("EstatePro.Models.Transaction", "Transaction")
+                        .WithMany()
+                        .HasForeignKey("TransactionId");
+
+                    b.Navigation("LeaseAgreement");
+
+                    b.Navigation("Transaction");
                 });
 
             modelBuilder.Entity("EstatePro.Models.Review", b =>
