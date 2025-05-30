@@ -17,7 +17,7 @@ namespace EstatePro.Migrations
                 {
                     ReportId = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
-                    ReportType = table.Column<int>(type: "int", nullable: true),
+                    ReportType = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     ReportData = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     CreatedAt = table.Column<DateTime>(type: "datetime2", nullable: true)
                 },
@@ -59,11 +59,11 @@ namespace EstatePro.Migrations
                     City = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     State = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     ZipCode = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    PropertyType = table.Column<int>(type: "int", nullable: false),
-                    ListingType = table.Column<int>(type: "int", nullable: false),
-                    Status = table.Column<int>(type: "int", nullable: false),
+                    PropertyType = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    ListingType = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Status = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     OwnerId = table.Column<int>(type: "int", nullable: false),
-                    OwnerRole = table.Column<int>(type: "int", nullable: false),
+                    OwnerRole = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     CreatedAt = table.Column<DateTime>(type: "datetime2", nullable: true)
                 },
                 constraints: table =>
@@ -86,7 +86,7 @@ namespace EstatePro.Migrations
                     PropertyId = table.Column<int>(type: "int", nullable: false),
                     UserId = table.Column<int>(type: "int", nullable: false),
                     AppointmentDate = table.Column<DateTime>(type: "datetime2", nullable: true),
-                    Status = table.Column<int>(type: "int", nullable: true)
+                    Status = table.Column<string>(type: "nvarchar(max)", nullable: true)
                 },
                 constraints: table =>
                 {
@@ -113,7 +113,7 @@ namespace EstatePro.Migrations
                         .Annotation("SqlServer:Identity", "1, 1"),
                     PropertyId = table.Column<int>(type: "int", nullable: false),
                     UserId = table.Column<int>(type: "int", nullable: false),
-                    Status = table.Column<int>(type: "int", nullable: true),
+                    Status = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     BookingDate = table.Column<DateTime>(type: "datetime2", nullable: true)
                 },
                 constraints: table =>
@@ -145,7 +145,7 @@ namespace EstatePro.Migrations
                     LeaseEndDate = table.Column<DateTime>(type: "datetime2", nullable: true),
                     RentAmount = table.Column<decimal>(type: "decimal(18,2)", nullable: true),
                     SecurityDeposit = table.Column<decimal>(type: "decimal(18,2)", nullable: true),
-                    LeaseStatus = table.Column<int>(type: "int", nullable: false)
+                    LeaseStatus = table.Column<string>(type: "nvarchar(max)", nullable: false)
                 },
                 constraints: table =>
                 {
@@ -203,8 +203,8 @@ namespace EstatePro.Migrations
                     PropertyId = table.Column<int>(type: "int", nullable: false),
                     Amount = table.Column<decimal>(type: "decimal(18,2)", nullable: true),
                     TransactionDate = table.Column<DateTime>(type: "datetime2", nullable: true),
-                    Status = table.Column<int>(type: "int", nullable: true),
-                    TransactionType = table.Column<int>(type: "int", nullable: false)
+                    TransactionType = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    PaymentStatus = table.Column<string>(type: "nvarchar(max)", nullable: true)
                 },
                 constraints: table =>
                 {
@@ -233,9 +233,9 @@ namespace EstatePro.Migrations
                     MonthYear = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     DueDate = table.Column<DateTime>(type: "datetime2", nullable: true),
                     Amount = table.Column<decimal>(type: "decimal(18,2)", nullable: true),
-                    Status = table.Column<int>(type: "int", nullable: false),
                     TransactionId = table.Column<int>(type: "int", nullable: false),
-                    CreatedAt = table.Column<DateTime>(type: "datetime2", nullable: true)
+                    CreatedAt = table.Column<DateTime>(type: "datetime2", nullable: true),
+                    RentStatus = table.Column<string>(type: "nvarchar(max)", nullable: true)
                 },
                 constraints: table =>
                 {

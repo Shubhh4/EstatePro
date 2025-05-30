@@ -20,7 +20,53 @@ namespace EstatePro.Data
         public DbSet<Rent> Rents { get; set; }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            base.OnModelCreating(modelBuilder);
+            modelBuilder.Entity<User>()
+                .Property(u => u.Role)
+                .HasConversion<string>();
+
+            modelBuilder.Entity<Property>()
+                .Property(p => p.PropertyType)
+                .HasConversion<string>();
+
+            modelBuilder.Entity<Property>()
+                .Property(p => p.ListingType)
+                .HasConversion<string>();
+
+            modelBuilder.Entity<Property>()
+                .Property(p => p.Status)
+                .HasConversion<string>();
+
+            modelBuilder.Entity<Property>()
+                .Property(p => p.OwnerRole)
+                .HasConversion<string>();
+
+            modelBuilder.Entity<Booking>()
+                .Property(b => b.Status)
+                .HasConversion<string>();
+
+            modelBuilder.Entity<LeaseAgreement>()
+                .Property(l => l.LeaseStatus)
+                .HasConversion<string>();
+
+            modelBuilder.Entity<Transaction>()
+                .Property(t => t.PaymentStatus)
+                .HasConversion<string>();
+
+            modelBuilder.Entity<Transaction>()
+                .Property(t => t.TransactionType)
+                .HasConversion<string>();
+
+            modelBuilder.Entity<Appointment>()
+                .Property(a => a.Status)
+                .HasConversion<string>();
+
+            modelBuilder.Entity<Rent>()
+                .Property(r => r.RentStatus)
+                .HasConversion<string>();
+
+            modelBuilder.Entity<Report>()
+                .Property(r => r.ReportType)
+                .HasConversion<string>();
 
             // Avoid multiple cascade paths by restricting some deletes
 
@@ -100,6 +146,7 @@ namespace EstatePro.Data
                 .Property(u => u.Role)
                 .HasConversion<string>();
 
+            base.OnModelCreating(modelBuilder);
         }
     }
 }

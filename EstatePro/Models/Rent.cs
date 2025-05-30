@@ -14,13 +14,14 @@ namespace EstatePro.Models
         public string? MonthYear { get; set; } // e.g., "2025-07"
         public DateTime? DueDate { get; set; }
         public decimal? Amount { get; set; }
-        public RentStatus Status { get; set; } = RentStatus.Pending;
 
         [ForeignKey("Transaction")]
         public int TransactionId { get; set; } // Nullable FK
         public Transaction Transaction { get; set; }
 
         public DateTime? CreatedAt { get; set; } = DateTime.UtcNow;
+
+        public RentStatus? RentStatus { get; set; }
     }
 
 

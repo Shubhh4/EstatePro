@@ -22,7 +22,7 @@ namespace EstatePro.Models
         public string? State { get; set; }
         public string? ZipCode { get; set; }
 
-        // Enums or separate tables - here assumed enums
+        // Enums - here assumed enums
         public PropertyType PropertyType { get; set; }
         public ListingType ListingType { get; set; }
         public PropertyStatus Status { get; set; }
@@ -44,7 +44,4 @@ namespace EstatePro.Models
         public ICollection<Transaction> Transactions { get; set; } = new List<Transaction>();
 
     }
-
-
-
 }

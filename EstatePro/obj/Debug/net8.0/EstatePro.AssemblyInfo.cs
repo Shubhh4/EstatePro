@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EstatePro")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cdd06779262497c204175cc2f88d3371fd6afa67")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+20abfe4a0028b698a3ff6c622e03ed9127efc6de")]
 [assembly: System.Reflection.AssemblyProductAttribute("EstatePro")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EstatePro")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

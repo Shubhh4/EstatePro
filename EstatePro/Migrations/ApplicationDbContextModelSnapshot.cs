@@ -36,8 +36,8 @@ namespace EstatePro.Migrations
                     b.Property<int>("PropertyId")
                         .HasColumnType("int");
 
-                    b.Property<int?>("Status")
-                        .HasColumnType("int");
+                    b.Property<string>("Status")
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<int>("UserId")
                         .HasColumnType("int");
@@ -65,8 +65,8 @@ namespace EstatePro.Migrations
                     b.Property<int>("PropertyId")
                         .HasColumnType("int");
 
-                    b.Property<int?>("Status")
-                        .HasColumnType("int");
+                    b.Property<string>("Status")
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<int>("UserId")
                         .HasColumnType("int");
@@ -94,8 +94,9 @@ namespace EstatePro.Migrations
                     b.Property<DateTime?>("LeaseStartDate")
                         .HasColumnType("datetime2");
 
-                    b.Property<int>("LeaseStatus")
-                        .HasColumnType("int");
+                    b.Property<string>("LeaseStatus")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<int>("PropertyId")
                         .HasColumnType("int");
@@ -139,26 +140,30 @@ namespace EstatePro.Migrations
                     b.Property<string>("Description")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("ListingType")
-                        .HasColumnType("int");
+                    b.Property<string>("ListingType")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<int>("OwnerId")
                         .HasColumnType("int");
 
-                    b.Property<int>("OwnerRole")
-                        .HasColumnType("int");
+                    b.Property<string>("OwnerRole")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<decimal?>("Price")
                         .HasColumnType("decimal(18,2)");
 
-                    b.Property<int>("PropertyType")
-                        .HasColumnType("int");
+                    b.Property<string>("PropertyType")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("State")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("Status")
-                        .HasColumnType("int");
+                    b.Property<string>("Status")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Title")
                         .IsRequired()
@@ -197,8 +202,8 @@ namespace EstatePro.Migrations
                     b.Property<string>("MonthYear")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("Status")
-                        .HasColumnType("int");
+                    b.Property<string>("RentStatus")
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<int>("TransactionId")
                         .HasColumnType("int");
@@ -226,8 +231,8 @@ namespace EstatePro.Migrations
                     b.Property<string>("ReportData")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int?>("ReportType")
-                        .HasColumnType("int");
+                    b.Property<string>("ReportType")
+                        .HasColumnType("nvarchar(max)");
 
                     b.HasKey("ReportId");
 
@@ -277,17 +282,17 @@ namespace EstatePro.Migrations
                     b.Property<decimal?>("Amount")
                         .HasColumnType("decimal(18,2)");
 
-                    b.Property<int>("PropertyId")
-                        .HasColumnType("int");
+                    b.Property<string>("PaymentStatus")
+                        .HasColumnType("nvarchar(max)");
 
-                    b.Property<int?>("Status")
+                    b.Property<int>("PropertyId")
                         .HasColumnType("int");
 
                     b.Property<DateTime?>("TransactionDate")
                         .HasColumnType("datetime2");
 
-                    b.Property<int>("TransactionType")
-                        .HasColumnType("int");
+                    b.Property<string>("TransactionType")
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<int>("UserId")
                         .HasColumnType("int");

@@ -31,9 +31,11 @@
 
     public enum BookingStatus
     {
-        Pending,
-        Confirmed,
-        Cancelled
+        Pending,           // Booking made
+        ConfirmedByTenant, // Tenant confirmed interest
+        AcceptedByAdmin,   // Admin/Agent/Seller accepted
+        LeaseCreated,      // Lease has been created
+        Cancelled          // Rejected or canceled
     }
 
     public enum PaymentMethod
