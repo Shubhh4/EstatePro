@@ -1,4 +1,6 @@
 using EstatePro.Data;
+using EstatePro.Repository;
+using EstatePro.Services;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -13,7 +15,7 @@ builder.Services.AddDbContext<ApplicationDbContext>
             builder.Configuration.GetConnectionString("dbconn")
         )
     );
-
+builder.Services.AddScoped<IProperty, PropertyService>();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

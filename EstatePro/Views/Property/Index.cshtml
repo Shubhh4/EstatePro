@@ -1,0 +1,35 @@
+﻿@model List<Property>
+<table class="table">
+    <thead>
+        <tr>
+            <th scope="col">Title</th>
+            <th scope="col">Description</th>
+            <th scope="col">price</th>
+            <th scope="col">city</th>
+            <th scope="col">state</th>
+            <th scope="col">zipcode</th>
+            <th scope="col">Action</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var i in Model)
+        {
+            <tr>
+                <th scope="row">@i.Title</th>
+                <td>@i.Description</td>
+                <td>@i.Price</td>
+                <td>@i.City</td>
+                <td>@i.State</td>
+                <td>@i.ZipCode</td>
+                <td><a asp-action="Delete" asp-route-id="#@i.PropertyId" class="btn btn-danger">Delete</a>
+                    <a asp-action="Edit" asp-route-id="#@i.PropertyId" class="btn btn-success">Edit</a>
+                
+                </td>
+
+
+            </tr>
+        }
+
+
+    </tbody>
+</table>
