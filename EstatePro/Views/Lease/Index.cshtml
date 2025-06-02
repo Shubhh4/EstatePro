@@ -1,5 +1,51 @@
-﻿@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
-@{
+﻿@model List<LeaseAgreement>
+<partial name="Notification"></partial>
+<a asp-controller="Lease" asp-action="AddLeaseAgreement" class="btn btn-primary">Add Lease Agreement</a>
+<br />
+<br />
+<table id="example" class="display">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Property Name</th>
+            <th>Tenant Name</th>
+            <th>Lease Start Date</th>
+            <th>Lease End Date</th>
+            <th>Rent Amount</th>
+            <th>Security Deposit</th>
+            <th>Lease Status</th>
+            <th>Action</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var e in Model)
+        {
+            <tr>
+                <td>@e.LeaseId</td>
+                <td>@e.Property.Title</td>
+                <td>@e.Tenant.FirstName  @e.Tenant.LastName</td>
+                <td>@e.LeaseStartDate</td>
+                <td>@e.LeaseEndDate</td>
+                <td>@e.RentAmount</td>
+                <td>@e.SecurityDeposit</td>
+                <td>@e.LeaseStatus</td>
+                <td>
+                    <a asp-controller="Lease" asp-action="DeleteLeaseAgreement" onclick="return confirm('Are you sure?')" asp-route-id="@e.LeaseId" class="btn btn-sm btn-danger">Delete</a>
+                    <a asp-controller="Lease" asp-action="EditLeaseAgreement" asp-route-id="@e.LeaseId" class="btn btn-sm btn-success">Edit</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+@section Scripts {
+    <link href="https://cdn.datatables.net/2.3.1/css/dataTables.dataTables.css" rel="stylesheet" />
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+    <script src="https://cdn.datatables.net/2.3.1/js/dataTables.js"></script>
+    <script>
+        $(document).ready(
+            function () {
+            $('#example').DataTable();
+        } );
+    </script>
 }

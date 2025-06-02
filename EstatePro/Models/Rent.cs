@@ -11,15 +11,16 @@ namespace EstatePro.Models
         public int LeaseId { get; set; }
         public LeaseAgreement LeaseAgreement { get; set; }
 
-        public string? MonthYear { get; set; } // e.g., "2025-07"
-        public DateTime? DueDate { get; set; }
+        public DateTime DueDate { get; set; }
+        public DateTime? PaidDate { get; set; }
         public decimal? Amount { get; set; }
+        public bool IsPaid { get; set; }
 
-        [ForeignKey("Transaction")]
-        public int TransactionId { get; set; } // Nullable FK
-        public Transaction Transaction { get; set; }
+        //[ForeignKey("Transaction")]
+        //public int TransactionId { get; set; } // Nullable FK
+        //public Transaction Transaction { get; set; }
 
-        public DateTime? CreatedAt { get; set; } = DateTime.UtcNow;
+        //public DateTime? CreatedAt { get; set; } = DateTime.UtcNow;
 
         public RentStatus? RentStatus { get; set; }
     }

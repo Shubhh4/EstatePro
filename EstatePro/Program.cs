@@ -16,6 +16,9 @@ builder.Services.AddDbContext<ApplicationDbContext>
         )
     );
 builder.Services.AddScoped<IProperty, PropertyService>();
+builder.Services.AddScoped<LeaseRepo, LeaseService>();
+builder.Services.AddScoped<LeaseTenantRepo, LeaseTenantService>();
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

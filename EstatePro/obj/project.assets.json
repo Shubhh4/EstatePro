@@ -3461,23 +3461,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\samee\\.nuget\\packages\\": {},
+    "C:\\Users\\admin\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\samee\\OneDrive\\Desktop\\firstproject\\EstatePro\\EstatePro.csproj",
+      "projectUniqueName": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\EstatePro.csproj",
       "projectName": "EstatePro",
-      "projectPath": "C:\\Users\\samee\\OneDrive\\Desktop\\firstproject\\EstatePro\\EstatePro.csproj",
-      "packagesPath": "C:\\Users\\samee\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\samee\\OneDrive\\Desktop\\firstproject\\EstatePro\\obj\\",
+      "projectPath": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\EstatePro.csproj",
+      "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+      "outputPath": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\samee\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -3541,7 +3541,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

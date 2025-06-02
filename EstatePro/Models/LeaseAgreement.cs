@@ -15,16 +15,22 @@ namespace EstatePro.Models
         [ForeignKey("Tenant")]
         public int TenantId { get; set; }
         public User Tenant { get; set; }
+        
+        [ForeignKey("Booking")]
+        public int BookingId { get; set; }
+        public Booking Booking { get; set; }
 
-        public DateTime? LeaseStartDate { get; set; }
-        public DateTime? LeaseEndDate { get; set; }
+        public DateTime LeaseStartDate { get; set; }
+        public DateTime LeaseEndDate { get; set; }
 
         [Column(TypeName = "decimal(18,2)")]
         public decimal? RentAmount { get; set; }
 
         [Column(TypeName = "decimal(18,2)")]
         public decimal? SecurityDeposit { get; set; }
-        public LeaseStatus LeaseStatus { get; set; }
+        public bool IsDepositPaid { get; set; } = false;
+        public LeaseStatus LeaseStatus { get; set; } // Enum: Pending, Accepted, Rejected
+
     }
 
 

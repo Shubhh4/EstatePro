@@ -1,0 +1,43 @@
+﻿@model List<LeaseAgreement>
+<partial name="Notification"></partial>
+
+<h2>Your Lease Agreements</h2>
+
+@foreach (var lease in Model)
+{
+    <div class="card p-3 mb-3">
+        <h4>Property: @lease.Booking.Property.Title</h4>
+        <p>Start Date: @lease.LeaseStartDate.ToShortDateString()</p>
+        <p>End Date: @lease.LeaseEndDate.ToShortDateString()</p>
+        <p>
+            Status:
+            @if (lease.LeaseStatus == LeaseStatus.Pending)
+            {
+                <span class="text-warning">Pending</span>
+            }
+            else if (lease.LeaseStatus == LeaseStatus.Accepted)
+            {
+                <span class="text-success">Accepted</span>
+            }
+            else
+            {
+                <span class="text-danger">Rejected</span>
+            }
+        </p>
+
+        <a asp-action="LeaseDetails" asp-route-id="@lease.LeaseId" class="btn btn-info">View Details</a>
+
+        @if (lease.LeaseStatus == LeaseStatus.Pending)
+        {
+            <form asp-action="AcceptAgreement" method="post" style="display:inline">
+                <input type="hidden" name="id" value="@lease.LeaseId" />
+                <button type="submit" class="btn btn-success">Accept</button>
+            </form>
+
+            <form asp-action="RejectAgreement" method="post" style="display:inline">
+                <input type="hidden" name="id" value="@lease.LeaseId" />
+                <button type="submit" class="btn btn-danger">Reject</button>
+            </form>
+        }
+    </div>
+}

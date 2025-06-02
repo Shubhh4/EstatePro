@@ -1,0 +1,34 @@
+﻿@model LeaseAgreement
+<partial name="Notification"></partial>
+
+<h2>Lease Details</h2>
+<p><strong>Property:</strong> @Model.Property.Title</p>
+<p><strong>Start:</strong> @Model.LeaseStartDate.ToShortDateString()</p>
+<p><strong>End:</strong> @Model.LeaseEndDate.ToShortDateString()</p>
+<p><strong>Rent:</strong> ₹@Model.RentAmount</p>
+<p><strong>Deposit:</strong> ₹@Model.SecurityDeposit</p>
+<p><strong>Status:</strong> @Model.LeaseStatus</p>
+
+@if (Model.LeaseStatus == LeaseStatus.Pending)
+{
+    <form asp-action="AcceptAgreement" method="post">
+        <input type="hidden" name="id" value="@Model.LeaseId" />
+        <button type="submit" class="btn btn-success">Accept</button>
+    </form>
+    <form asp-action="RejectAgreement" method="post">
+        <input type="hidden" name="id" value="@Model.LeaseId" />
+        <button type="submit" class="btn btn-danger">Reject</button>
+    </form>
+}
+else if (Model.LeaseStatus == LeaseStatus.Accepted && !Model.IsDepositPaid)
+{
+    <form asp-action="PayDeposit" method="post">
+        <input type="hidden" name="id" value="@Model.LeaseId" />
+        <button type="submit" class="btn btn-warning">Pay Security Deposit</button>
+    </form>
+}
+else if (Model.LeaseStatus == LeaseStatus.Accepted && Model.IsDepositPaid)
+{
+    <a asp-action="RentList" asp-route-leaseId="@Model.LeaseId" class="btn btn-primary">View Rent Schedule</a>
+}
+<a asp-action="Index" class="btn btn-secondary">Back</a>

@@ -1,104 +1,26 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\samee\\OneDrive\\Desktop\\firstproject\\",
+  "WorkspaceRootPath": "D:\\MTS\\Project3\\EstatePro\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{25C3812E-2A3E-4DEE-8E70-51D0218A9A82}|EstatePro\\EstatePro.csproj|c:\\users\\samee\\onedrive\\desktop\\firstproject\\estatepro\\models\\property.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{25C3812E-2A3E-4DEE-8E70-51D0218A9A82}|EstatePro\\EstatePro.csproj|solutionrelative:estatepro\\models\\property.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{25C3812E-2A3E-4DEE-8E70-51D0218A9A82}|EstatePro\\EstatePro.csproj|d:\\mts\\project3\\estatepro\\estatepro\\controllers\\reviewcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25C3812E-2A3E-4DEE-8E70-51D0218A9A82}|EstatePro\\EstatePro.csproj|solutionrelative:estatepro\\controllers\\reviewcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{25C3812E-2A3E-4DEE-8E70-51D0218A9A82}|EstatePro\\EstatePro.csproj|c:\\users\\samee\\onedrive\\desktop\\firstproject\\estatepro\\views\\property\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{25C3812E-2A3E-4DEE-8E70-51D0218A9A82}|EstatePro\\EstatePro.csproj|solutionrelative:estatepro\\views\\property\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{25C3812E-2A3E-4DEE-8E70-51D0218A9A82}|EstatePro\\EstatePro.csproj|d:\\mts\\project3\\estatepro\\estatepro\\services\\reviewservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25C3812E-2A3E-4DEE-8E70-51D0218A9A82}|EstatePro\\EstatePro.csproj|solutionrelative:estatepro\\services\\reviewservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{25C3812E-2A3E-4DEE-8E70-51D0218A9A82}|EstatePro\\EstatePro.csproj|c:\\users\\samee\\onedrive\\desktop\\firstproject\\estatepro\\views\\property\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{25C3812E-2A3E-4DEE-8E70-51D0218A9A82}|EstatePro\\EstatePro.csproj|solutionrelative:estatepro\\views\\property\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{25C3812E-2A3E-4DEE-8E70-51D0218A9A82}|EstatePro\\EstatePro.csproj|d:\\mts\\project3\\estatepro\\estatepro\\repository\\reviewrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25C3812E-2A3E-4DEE-8E70-51D0218A9A82}|EstatePro\\EstatePro.csproj|solutionrelative:estatepro\\repository\\reviewrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{25C3812E-2A3E-4DEE-8E70-51D0218A9A82}|EstatePro\\EstatePro.csproj|c:\\users\\samee\\onedrive\\desktop\\firstproject\\estatepro\\views\\property\\addproperty.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{25C3812E-2A3E-4DEE-8E70-51D0218A9A82}|EstatePro\\EstatePro.csproj|solutionrelative:estatepro\\views\\property\\addproperty.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{25C3812E-2A3E-4DEE-8E70-51D0218A9A82}|EstatePro\\EstatePro.csproj|c:\\users\\samee\\onedrive\\desktop\\firstproject\\estatepro\\services\\propertyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{25C3812E-2A3E-4DEE-8E70-51D0218A9A82}|EstatePro\\EstatePro.csproj|solutionrelative:estatepro\\services\\propertyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{25C3812E-2A3E-4DEE-8E70-51D0218A9A82}|EstatePro\\EstatePro.csproj|c:\\users\\samee\\onedrive\\desktop\\firstproject\\estatepro\\repository\\iproperty.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{25C3812E-2A3E-4DEE-8E70-51D0218A9A82}|EstatePro\\EstatePro.csproj|solutionrelative:estatepro\\repository\\iproperty.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{25C3812E-2A3E-4DEE-8E70-51D0218A9A82}|EstatePro\\EstatePro.csproj|c:\\users\\samee\\onedrive\\desktop\\firstproject\\estatepro\\controllers\\propertycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{25C3812E-2A3E-4DEE-8E70-51D0218A9A82}|EstatePro\\EstatePro.csproj|solutionrelative:estatepro\\controllers\\propertycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{25C3812E-2A3E-4DEE-8E70-51D0218A9A82}|EstatePro\\EstatePro.csproj|c:\\users\\samee\\onedrive\\desktop\\firstproject\\estatepro\\controllers\\leasecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{25C3812E-2A3E-4DEE-8E70-51D0218A9A82}|EstatePro\\EstatePro.csproj|solutionrelative:estatepro\\controllers\\leasecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{25C3812E-2A3E-4DEE-8E70-51D0218A9A82}|EstatePro\\EstatePro.csproj|c:\\users\\samee\\onedrive\\desktop\\firstproject\\estatepro\\services\\leaseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{25C3812E-2A3E-4DEE-8E70-51D0218A9A82}|EstatePro\\EstatePro.csproj|solutionrelative:estatepro\\services\\leaseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{25C3812E-2A3E-4DEE-8E70-51D0218A9A82}|EstatePro\\EstatePro.csproj|c:\\users\\samee\\onedrive\\desktop\\firstproject\\estatepro\\models\\transaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{25C3812E-2A3E-4DEE-8E70-51D0218A9A82}|EstatePro\\EstatePro.csproj|solutionrelative:estatepro\\models\\transaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{25C3812E-2A3E-4DEE-8E70-51D0218A9A82}|EstatePro\\EstatePro.csproj|c:\\users\\samee\\onedrive\\desktop\\firstproject\\estatepro\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{25C3812E-2A3E-4DEE-8E70-51D0218A9A82}|EstatePro\\EstatePro.csproj|solutionrelative:estatepro\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{25C3812E-2A3E-4DEE-8E70-51D0218A9A82}|EstatePro\\EstatePro.csproj|c:\\users\\samee\\onedrive\\desktop\\firstproject\\estatepro\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{25C3812E-2A3E-4DEE-8E70-51D0218A9A82}|EstatePro\\EstatePro.csproj|solutionrelative:estatepro\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{25C3812E-2A3E-4DEE-8E70-51D0218A9A82}|EstatePro\\EstatePro.csproj|c:\\users\\samee\\onedrive\\desktop\\firstproject\\estatepro\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{25C3812E-2A3E-4DEE-8E70-51D0218A9A82}|EstatePro\\EstatePro.csproj|d:\\mts\\project3\\estatepro\\estatepro\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{25C3812E-2A3E-4DEE-8E70-51D0218A9A82}|EstatePro\\EstatePro.csproj|solutionrelative:estatepro\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\samee\\OneDrive\\Desktop\\firstproject\\EstatePro\\Migrations\\20250531155728_a.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:EstatePro\\Migrations\\20250531155728_a.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\samee\\OneDrive\\Desktop\\firstproject\\EstatePro\\Migrations\\20250531152501_FixedDecimalPrecision.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:EstatePro\\Migrations\\20250531152501_FixedDecimalPrecision.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{25C3812E-2A3E-4DEE-8E70-51D0218A9A82}|EstatePro\\EstatePro.csproj|c:\\users\\samee\\onedrive\\desktop\\firstproject\\estatepro\\repository\\leaserepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{25C3812E-2A3E-4DEE-8E70-51D0218A9A82}|EstatePro\\EstatePro.csproj|solutionrelative:estatepro\\repository\\leaserepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{25C3812E-2A3E-4DEE-8E70-51D0218A9A82}|EstatePro\\EstatePro.csproj|c:\\users\\samee\\onedrive\\desktop\\firstproject\\estatepro\\views\\lease\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{25C3812E-2A3E-4DEE-8E70-51D0218A9A82}|EstatePro\\EstatePro.csproj|solutionrelative:estatepro\\views\\lease\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{25C3812E-2A3E-4DEE-8E70-51D0218A9A82}|EstatePro\\EstatePro.csproj|c:\\users\\samee\\onedrive\\desktop\\firstproject\\estatepro\\models\\enums.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{25C3812E-2A3E-4DEE-8E70-51D0218A9A82}|EstatePro\\EstatePro.csproj|d:\\mts\\project3\\estatepro\\estatepro\\models\\enums.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{25C3812E-2A3E-4DEE-8E70-51D0218A9A82}|EstatePro\\EstatePro.csproj|solutionrelative:estatepro\\models\\enums.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\MTS\\Project3\\EstatePro\\EstatePro\\Migrations\\20250530143131_Test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\MTS\\Project3\\EstatePro\\EstatePro\\Migrations\\20250529174427_Test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{25C3812E-2A3E-4DEE-8E70-51D0218A9A82}|EstatePro\\EstatePro.csproj|c:\\users\\samee\\onedrive\\desktop\\firstproject\\estatepro\\migrations\\20250530143756_test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{25C3812E-2A3E-4DEE-8E70-51D0218A9A82}|EstatePro\\EstatePro.csproj|solutionrelative:estatepro\\migrations\\20250530143756_test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{25C3812E-2A3E-4DEE-8E70-51D0218A9A82}|EstatePro\\EstatePro.csproj|c:\\users\\samee\\onedrive\\desktop\\firstproject\\estatepro\\migrations\\20250531163924_d.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{25C3812E-2A3E-4DEE-8E70-51D0218A9A82}|EstatePro\\EstatePro.csproj|solutionrelative:estatepro\\migrations\\20250531163924_d.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{25C3812E-2A3E-4DEE-8E70-51D0218A9A82}|EstatePro\\EstatePro.csproj|c:\\users\\samee\\onedrive\\desktop\\firstproject\\estatepro\\migrations\\20250531152620_m.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{25C3812E-2A3E-4DEE-8E70-51D0218A9A82}|EstatePro\\EstatePro.csproj|solutionrelative:estatepro\\migrations\\20250531152620_m.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{25C3812E-2A3E-4DEE-8E70-51D0218A9A82}|EstatePro\\EstatePro.csproj|c:\\users\\samee\\onedrive\\desktop\\firstproject\\estatepro\\migrations\\20250531152303_n.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{25C3812E-2A3E-4DEE-8E70-51D0218A9A82}|EstatePro\\EstatePro.csproj|solutionrelative:estatepro\\migrations\\20250531152303_n.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{25C3812E-2A3E-4DEE-8E70-51D0218A9A82}|EstatePro\\EstatePro.csproj|c:\\users\\samee\\onedrive\\desktop\\firstproject\\estatepro\\migrations\\20250531151626_prp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{25C3812E-2A3E-4DEE-8E70-51D0218A9A82}|EstatePro\\EstatePro.csproj|solutionrelative:estatepro\\migrations\\20250531151626_prp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -108,8 +30,47 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 17,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ReviewService.cs",
+              "DocumentMoniker": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\Services\\ReviewService.cs",
+              "RelativeDocumentMoniker": "EstatePro\\Services\\ReviewService.cs",
+              "ToolTip": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\Services\\ReviewService.cs",
+              "RelativeToolTip": "EstatePro\\Services\\ReviewService.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAQwBYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T06:41:13.862Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ReviewRepo.cs",
+              "DocumentMoniker": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\Repository\\ReviewRepo.cs",
+              "RelativeDocumentMoniker": "EstatePro\\Repository\\ReviewRepo.cs",
+              "ToolTip": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\Repository\\ReviewRepo.cs",
+              "RelativeToolTip": "EstatePro\\Repository\\ReviewRepo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T06:41:12.17Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ReviewController.cs",
+              "DocumentMoniker": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\Controllers\\ReviewController.cs",
+              "RelativeDocumentMoniker": "EstatePro\\Controllers\\ReviewController.cs",
+              "ToolTip": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\Controllers\\ReviewController.cs",
+              "RelativeToolTip": "EstatePro\\Controllers\\ReviewController.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAcwBMAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T06:41:06.072Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
@@ -151,304 +112,29 @@
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "PropertyController.cs",
-              "DocumentMoniker": "C:\\Users\\samee\\OneDrive\\Desktop\\firstproject\\EstatePro\\Controllers\\PropertyController.cs",
-              "RelativeDocumentMoniker": "EstatePro\\Controllers\\PropertyController.cs",
-              "ToolTip": "C:\\Users\\samee\\OneDrive\\Desktop\\firstproject\\EstatePro\\Controllers\\PropertyController.cs",
-              "RelativeToolTip": "EstatePro\\Controllers\\PropertyController.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAAmwCcAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-31T14:58:30.838Z"
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\appsettings.json",
+              "RelativeDocumentMoniker": "EstatePro\\appsettings.json",
+              "ToolTip": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\appsettings.json",
+              "RelativeToolTip": "EstatePro\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-02T06:23:01.233Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "PropertyService.cs",
-              "DocumentMoniker": "C:\\Users\\samee\\OneDrive\\Desktop\\firstproject\\EstatePro\\Services\\PropertyService.cs",
-              "RelativeDocumentMoniker": "EstatePro\\Services\\PropertyService.cs",
-              "ToolTip": "C:\\Users\\samee\\OneDrive\\Desktop\\firstproject\\EstatePro\\Services\\PropertyService.cs",
-              "RelativeToolTip": "EstatePro\\Services\\PropertyService.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAAmwCIAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-31T14:55:33.079Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "IProperty.cs",
-              "DocumentMoniker": "C:\\Users\\samee\\OneDrive\\Desktop\\firstproject\\EstatePro\\Repository\\IProperty.cs",
-              "RelativeDocumentMoniker": "EstatePro\\Repository\\IProperty.cs",
-              "ToolTip": "C:\\Users\\samee\\OneDrive\\Desktop\\firstproject\\EstatePro\\Repository\\IProperty.cs",
-              "RelativeToolTip": "EstatePro\\Repository\\IProperty.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-31T14:55:19.938Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\samee\\OneDrive\\Desktop\\firstproject\\EstatePro\\Views\\Property\\Index.cshtml",
-              "RelativeDocumentMoniker": "EstatePro\\Views\\Property\\Index.cshtml",
-              "ToolTip": "C:\\Users\\samee\\OneDrive\\Desktop\\firstproject\\EstatePro\\Views\\Property\\Index.cshtml",
-              "RelativeToolTip": "EstatePro\\Views\\Property\\Index.cshtml",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-31T14:59:16.745Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "AddProperty.cshtml",
-              "DocumentMoniker": "C:\\Users\\samee\\OneDrive\\Desktop\\firstproject\\EstatePro\\Views\\Property\\AddProperty.cshtml",
-              "RelativeDocumentMoniker": "EstatePro\\Views\\Property\\AddProperty.cshtml",
-              "ToolTip": "C:\\Users\\samee\\OneDrive\\Desktop\\firstproject\\EstatePro\\Views\\Property\\AddProperty.cshtml",
-              "RelativeToolTip": "EstatePro\\Views\\Property\\AddProperty.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC4AAAAHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-31T15:00:06.798Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\Users\\samee\\OneDrive\\Desktop\\firstproject\\EstatePro\\Views\\Property\\Edit.cshtml",
-              "RelativeDocumentMoniker": "EstatePro\\Views\\Property\\Edit.cshtml",
-              "ToolTip": "C:\\Users\\samee\\OneDrive\\Desktop\\firstproject\\EstatePro\\Views\\Property\\Edit.cshtml",
-              "RelativeToolTip": "EstatePro\\Views\\Property\\Edit.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-31T20:16:17.664Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Property.cs",
-              "DocumentMoniker": "C:\\Users\\samee\\OneDrive\\Desktop\\firstproject\\EstatePro\\Models\\Property.cs",
-              "RelativeDocumentMoniker": "EstatePro\\Models\\Property.cs",
-              "ToolTip": "C:\\Users\\samee\\OneDrive\\Desktop\\firstproject\\EstatePro\\Models\\Property.cs",
-              "RelativeToolTip": "EstatePro\\Models\\Property.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAABYAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-31T15:17:05.673Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "LeaseController.cs",
-              "DocumentMoniker": "C:\\Users\\samee\\OneDrive\\Desktop\\firstproject\\EstatePro\\Controllers\\LeaseController.cs",
-              "RelativeDocumentMoniker": "EstatePro\\Controllers\\LeaseController.cs",
-              "ToolTip": "C:\\Users\\samee\\OneDrive\\Desktop\\firstproject\\EstatePro\\Controllers\\LeaseController.cs",
-              "RelativeToolTip": "EstatePro\\Controllers\\LeaseController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-30T05:18:00.71Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "LeaseService.cs",
-              "DocumentMoniker": "C:\\Users\\samee\\OneDrive\\Desktop\\firstproject\\EstatePro\\Services\\LeaseService.cs",
-              "RelativeDocumentMoniker": "EstatePro\\Services\\LeaseService.cs",
-              "ToolTip": "C:\\Users\\samee\\OneDrive\\Desktop\\firstproject\\EstatePro\\Services\\LeaseService.cs",
-              "RelativeToolTip": "EstatePro\\Services\\LeaseService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-30T05:17:45.068Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\samee\\OneDrive\\Desktop\\firstproject\\EstatePro\\Program.cs",
-              "RelativeDocumentMoniker": "EstatePro\\Program.cs",
-              "ToolTip": "C:\\Users\\samee\\OneDrive\\Desktop\\firstproject\\EstatePro\\Program.cs",
-              "RelativeToolTip": "EstatePro\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAA5AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-31T15:08:50.742Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\samee\\OneDrive\\Desktop\\firstproject\\EstatePro\\appsettings.json",
-              "RelativeDocumentMoniker": "EstatePro\\appsettings.json",
-              "ToolTip": "C:\\Users\\samee\\OneDrive\\Desktop\\firstproject\\EstatePro\\appsettings.json",
-              "RelativeToolTip": "EstatePro\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-05-28T18:17:09.205Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Transaction.cs",
-              "DocumentMoniker": "C:\\Users\\samee\\OneDrive\\Desktop\\firstproject\\EstatePro\\Models\\Transaction.cs",
-              "RelativeDocumentMoniker": "EstatePro\\Models\\Transaction.cs",
-              "ToolTip": "C:\\Users\\samee\\OneDrive\\Desktop\\firstproject\\EstatePro\\Models\\Transaction.cs",
-              "RelativeToolTip": "EstatePro\\Models\\Transaction.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-30T14:36:28.408Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\samee\\OneDrive\\Desktop\\firstproject\\EstatePro\\Data\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "EstatePro\\Data\\ApplicationDbContext.cs",
-              "ToolTip": "C:\\Users\\samee\\OneDrive\\Desktop\\firstproject\\EstatePro\\Data\\ApplicationDbContext.cs",
-              "RelativeToolTip": "EstatePro\\Data\\ApplicationDbContext.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAmwBMAAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-28T18:32:14.578Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "20250531155728_a.cs",
-              "DocumentMoniker": "C:\\Users\\samee\\OneDrive\\Desktop\\firstproject\\EstatePro\\Migrations\\20250531155728_a.cs",
-              "RelativeDocumentMoniker": "EstatePro\\Migrations\\20250531155728_a.cs",
-              "ToolTip": "C:\\Users\\samee\\OneDrive\\Desktop\\firstproject\\EstatePro\\Migrations\\20250531155728_a.cs",
-              "RelativeToolTip": "EstatePro\\Migrations\\20250531155728_a.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-31T15:57:28.867Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "20250531163924_d.cs",
-              "DocumentMoniker": "C:\\Users\\samee\\OneDrive\\Desktop\\firstproject\\EstatePro\\Migrations\\20250531163924_d.cs",
-              "RelativeDocumentMoniker": "EstatePro\\Migrations\\20250531163924_d.cs",
-              "ToolTip": "C:\\Users\\samee\\OneDrive\\Desktop\\firstproject\\EstatePro\\Migrations\\20250531163924_d.cs",
-              "RelativeToolTip": "EstatePro\\Migrations\\20250531163924_d.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-31T16:39:24.541Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "20250531152620_m.cs",
-              "DocumentMoniker": "C:\\Users\\samee\\OneDrive\\Desktop\\firstproject\\EstatePro\\Migrations\\20250531152620_m.cs",
-              "RelativeDocumentMoniker": "EstatePro\\Migrations\\20250531152620_m.cs",
-              "ToolTip": "C:\\Users\\samee\\OneDrive\\Desktop\\firstproject\\EstatePro\\Migrations\\20250531152620_m.cs",
-              "RelativeToolTip": "EstatePro\\Migrations\\20250531152620_m.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-31T15:26:21.106Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "20250531152501_FixedDecimalPrecision.cs",
-              "DocumentMoniker": "C:\\Users\\samee\\OneDrive\\Desktop\\firstproject\\EstatePro\\Migrations\\20250531152501_FixedDecimalPrecision.cs",
-              "RelativeDocumentMoniker": "EstatePro\\Migrations\\20250531152501_FixedDecimalPrecision.cs",
-              "ToolTip": "C:\\Users\\samee\\OneDrive\\Desktop\\firstproject\\EstatePro\\Migrations\\20250531152501_FixedDecimalPrecision.cs",
-              "RelativeToolTip": "EstatePro\\Migrations\\20250531152501_FixedDecimalPrecision.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-31T15:25:02.064Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "20250531152303_n.cs",
-              "DocumentMoniker": "C:\\Users\\samee\\OneDrive\\Desktop\\firstproject\\EstatePro\\Migrations\\20250531152303_n.cs",
-              "RelativeDocumentMoniker": "EstatePro\\Migrations\\20250531152303_n.cs",
-              "ToolTip": "C:\\Users\\samee\\OneDrive\\Desktop\\firstproject\\EstatePro\\Migrations\\20250531152303_n.cs",
-              "RelativeToolTip": "EstatePro\\Migrations\\20250531152303_n.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-31T15:23:04Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "LeaseRepo.cs",
-              "DocumentMoniker": "C:\\Users\\samee\\OneDrive\\Desktop\\firstproject\\EstatePro\\Repository\\LeaseRepo.cs",
-              "RelativeDocumentMoniker": "EstatePro\\Repository\\LeaseRepo.cs",
-              "ToolTip": "C:\\Users\\samee\\OneDrive\\Desktop\\firstproject\\EstatePro\\Repository\\LeaseRepo.cs",
-              "RelativeToolTip": "EstatePro\\Repository\\LeaseRepo.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-30T05:17:29.59Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "20250531151626_prp.cs",
-              "DocumentMoniker": "C:\\Users\\samee\\OneDrive\\Desktop\\firstproject\\EstatePro\\Migrations\\20250531151626_prp.cs",
-              "RelativeDocumentMoniker": "EstatePro\\Migrations\\20250531151626_prp.cs",
-              "ToolTip": "C:\\Users\\samee\\OneDrive\\Desktop\\firstproject\\EstatePro\\Migrations\\20250531151626_prp.cs",
-              "RelativeToolTip": "EstatePro\\Migrations\\20250531151626_prp.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-31T15:16:26.778Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\samee\\OneDrive\\Desktop\\firstproject\\EstatePro\\Views\\Lease\\Index.cshtml",
-              "RelativeDocumentMoniker": "EstatePro\\Views\\Lease\\Index.cshtml",
-              "ToolTip": "C:\\Users\\samee\\OneDrive\\Desktop\\firstproject\\EstatePro\\Views\\Lease\\Index.cshtml",
-              "RelativeToolTip": "EstatePro\\Views\\Lease\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-30T14:39:17.879Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "20250530143131_Test.cs",
-              "DocumentMoniker": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\Migrations\\20250530143131_Test.cs",
-              "ToolTip": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\Migrations\\20250530143131_Test.cs",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-30T14:31:32.117Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "20250530143756_Test.cs",
-              "DocumentMoniker": "C:\\Users\\samee\\OneDrive\\Desktop\\firstproject\\EstatePro\\Migrations\\20250530143756_Test.cs",
-              "RelativeDocumentMoniker": "EstatePro\\Migrations\\20250530143756_Test.cs",
-              "ToolTip": "C:\\Users\\samee\\OneDrive\\Desktop\\firstproject\\EstatePro\\Migrations\\20250530143756_Test.cs",
-              "RelativeToolTip": "EstatePro\\Migrations\\20250530143756_Test.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-30T14:37:56.416Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "20250529174427_Test.cs",
-              "DocumentMoniker": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\Migrations\\20250529174427_Test.cs",
-              "ToolTip": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\Migrations\\20250529174427_Test.cs",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-29T17:44:27.91Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
               "Title": "Enums.cs",
-              "DocumentMoniker": "C:\\Users\\samee\\OneDrive\\Desktop\\firstproject\\EstatePro\\Models\\Enums.cs",
+              "DocumentMoniker": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\Models\\Enums.cs",
               "RelativeDocumentMoniker": "EstatePro\\Models\\Enums.cs",
-              "ToolTip": "C:\\Users\\samee\\OneDrive\\Desktop\\firstproject\\EstatePro\\Models\\Enums.cs",
+              "ToolTip": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\Models\\Enums.cs",
               "RelativeToolTip": "EstatePro\\Models\\Enums.cs",
               "ViewState": "AgIAAB4AAAAAAAAAAAAlwDAAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-28T15:43:20.712Z"
+              "WhenOpened": "2025-06-02T06:16:45.547Z"
             }
           ]
         },

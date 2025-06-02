@@ -1,0 +1,39 @@
+﻿@model List<Rent>
+@{
+    ViewBag.Title = "Rent Schedule";
+    var leaseId = ViewBag.LeaseId;
+}
+<partial name="Notification"></partial>
+
+<h2>Rent Schedule</h2>
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Due Date</th>
+            <th>Amount</th>
+            <th>Status</th>
+            <th>Paid Date</th>
+            <th>Action</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var rent in Model)
+        {
+            <tr>
+                <td>@rent.DueDate.ToShortDateString()</td>
+                <td>₹@rent.Amount</td>
+                <td>@(rent.IsPaid ? "Paid" : "Pending")</td>
+                <td>@(rent.PaidDate?.ToShortDateString() ?? "-")</td>
+                <td>
+                    @if (!rent.IsPaid)
+                    {
+                        <a asp-action="PayRent" asp-route-id="@rent.RentId" class="btn btn-success btn-sm">Pay</a>
+                    }
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<a asp-action="LeaseDetails" asp-route-id="@leaseId" class="btn btn-secondary">Back to Lease</a>

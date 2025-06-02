@@ -96,6 +96,14 @@ namespace EstatePro.Data
                 .HasForeignKey(l => l.TenantId)
                 .OnDelete(DeleteBehavior.Restrict);
 
+            // LeaseAgreement - Booking relationship
+            modelBuilder.Entity<LeaseAgreement>()
+                .HasOne(l => l.Booking)
+                .WithMany() // If you want to later support booking.LeaseAgreements, change this to .WithMany(b => b.LeaseAgreements)
+                .HasForeignKey(l => l.BookingId)
+                .OnDelete(DeleteBehavior.Restrict); // or .Cascade if you want the lease to be deleted if booking is deleted
+
+
             // Review: cascade on Property, restrict on User
             modelBuilder.Entity<Review>()
                 .HasOne(r => r.Property)

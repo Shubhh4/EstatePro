@@ -1,0 +1,37 @@
+﻿@model IEnumerable<Report>
+
+@{
+    ViewData["Title"] = "Reports";
+}
+
+<h2>Reports</h2>
+
+<form method="post">
+    <input type="text" name="txt" placeholder="Search..." />
+    <button type="submit">Search</button>
+</form>
+
+<table class="table table-bordered">
+    <tr>
+        <th>ID</th>
+        <th>Type</th>
+        <th>Data</th>
+        <th>Created</th>
+        <th>Actions</th>
+    </tr>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.ReportId</td>
+            <td>@item.ReportType</td>
+            <td>@item.ReportData</td>
+            <td>@item.CreatedAt</td>
+            <td>
+                <a href="/Report/EditReport/@item.ReportId" class="btn btn-primary btn-sm">Edit</a>
+                <a href="/Report/DeleteReport/@item.ReportId" class="btn btn-danger btn-sm">Delete</a>
+            </td>
+        </tr>
+    }
+</table>
+
+<a href="/Report/AddReport" class="btn btn-success">Add New Report</a>

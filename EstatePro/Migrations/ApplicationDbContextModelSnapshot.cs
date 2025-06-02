@@ -88,10 +88,16 @@ namespace EstatePro.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("LeaseId"));
 
-                    b.Property<DateTime?>("LeaseEndDate")
+                    b.Property<int>("BookingId")
+                        .HasColumnType("int");
+
+                    b.Property<bool>("IsDepositPaid")
+                        .HasColumnType("bit");
+
+                    b.Property<DateTime>("LeaseEndDate")
                         .HasColumnType("datetime2");
 
-                    b.Property<DateTime?>("LeaseStartDate")
+                    b.Property<DateTime>("LeaseStartDate")
                         .HasColumnType("datetime2");
 
                     b.Property<string>("LeaseStatus")
@@ -111,6 +117,8 @@ namespace EstatePro.Migrations
                         .HasColumnType("int");
 
                     b.HasKey("LeaseId");
+
+                    b.HasIndex("BookingId");
 
                     b.HasIndex("PropertyId");
 
@@ -190,29 +198,24 @@ namespace EstatePro.Migrations
                     b.Property<decimal?>("Amount")
                         .HasColumnType("decimal(18,2)");
 
-                    b.Property<DateTime?>("CreatedAt")
+                    b.Property<DateTime>("DueDate")
                         .HasColumnType("datetime2");
 
-                    b.Property<DateTime?>("DueDate")
-                        .HasColumnType("datetime2");
+                    b.Property<bool>("IsPaid")
+                        .HasColumnType("bit");
 
                     b.Property<int>("LeaseId")
                         .HasColumnType("int");
 
-                    b.Property<string>("MonthYear")
-                        .HasColumnType("nvarchar(max)");
+                    b.Property<DateTime?>("PaidDate")
+                        .HasColumnType("datetime2");
 
                     b.Property<string>("RentStatus")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("TransactionId")
-                        .HasColumnType("int");
-
                     b.HasKey("RentId");
 
                     b.HasIndex("LeaseId");
-
-                    b.HasIndex("TransactionId");
 
                     b.ToTable("Rents");
                 });
@@ -391,6 +394,12 @@ namespace EstatePro.Migrations
 
             modelBuilder.Entity("EstatePro.Models.LeaseAgreement", b =>
                 {
+                    b.HasOne("EstatePro.Models.Booking", "Booking")
+                        .WithMany()
+                        .HasForeignKey("BookingId")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
+
                     b.HasOne("EstatePro.Models.Property", "Property")
                         .WithMany("LeaseAgreements")
                         .HasForeignKey("PropertyId")
@@ -402,6 +411,8 @@ namespace EstatePro.Migrations
                         .HasForeignKey("TenantId")
                         .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired();
+
+                    b.Navigation("Booking");
 
                     b.Navigation("Property");
 
@@ -427,15 +438,7 @@ namespace EstatePro.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("EstatePro.Models.Transaction", "Transaction")
-                        .WithMany()
-                        .HasForeignKey("TransactionId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
                     b.Navigation("LeaseAgreement");
-
-                    b.Navigation("Transaction");
                 });
 
             modelBuilder.Entity("EstatePro.Models.Review", b =>
