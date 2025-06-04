@@ -1,0 +1,43 @@
+﻿@{
+    ViewBag.Title = "Pay Rent";
+    var keyId = ViewBag.KeyId;
+    var amount = ViewBag.Amount;
+    var rentId = ViewBag.RentId;
+    var displayAmount = (int)amount / 100;
+}
+
+<h2>Pay Rent: ₹@displayAmount</h2>
+
+<button id="rzp-button1">Pay Now</button>
+
+<form id="paymentForm" method="post" asp-action="ConfirmRent">
+    <input type="hidden" name="rentId" value="@rentId" />
+</form>
+
+<script src="https://checkout.razorpay.com/v1/checkout.js"></script>
+<script>
+    var options = {
+        "key": "@keyId",
+        "amount": @amount,
+        "currency": "INR",
+        "name": "EstatePro",
+        "description": "Rent Payment",
+        "handler": function (response) {
+            alert("Payment Successful");
+            document.getElementById("paymentForm").submit();
+        },
+        "prefill": {
+            "name": "Krish Kheloji",
+            "email": "khelojikrish@gmail.com",
+            "contact": "7208921898"
+        },
+        "theme": {
+            "color": "#4CAF50"
+        }
+    };
+    var rzp1 = new Razorpay(options);
+    document.getElementById("rzp-button1").onclick = function (e) {
+        rzp1.open();
+        e.preventDefault();
+    }
+</script>

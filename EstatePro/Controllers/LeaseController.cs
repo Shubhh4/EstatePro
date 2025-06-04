@@ -8,19 +8,39 @@ namespace EstatePro.Controllers
     public class LeaseController : Controller
     {
         LeaseRepo lrepo;
-        public LeaseController(LeaseRepo lrepo) 
-        { 
+        public LeaseController(LeaseRepo lrepo)
+        {
             this.lrepo = lrepo;
         }
         public IActionResult Index()
         {
-            var data = lrepo.fetchLeaseAgreement();
-            return View(data);
+            int userId = 1;
+            string role = lrepo.GetRole(userId).ToString();
+
+            List<LeaseAgreement> leases;
+
+            if (role == "Admin")
+            {
+                leases = lrepo.fetchLeaseAgreement();
+            }
+            else if (role == "Agent" || role == "Seller")
+            {
+                leases = lrepo.GetLeasesByOwnerId(userId);
+            }
+            else
+            {
+                return Unauthorized();
+            }
+
+            return View(leases);
         }
 
         public IActionResult AddLeaseAgreement()
         {
-            var bookings = lrepo.GetConfirmedBookings();
+            int userId = 1;
+            string role = lrepo.GetRole(userId).ToString();
+
+            var bookings = lrepo.GetConfirmedBookings(userId, role);
             ViewBag.Bookings = bookings.Select(b => new SelectListItem
             {
                 Value = b.BookingId.ToString(),
@@ -40,7 +60,7 @@ namespace EstatePro.Controllers
 
             lrepo.AddLeaseAgreement(e);
 
-            booking.Status = BookingStatus.LeaseCreated;
+            booking.Status = BookingStatus.LeaseCreated.ToString();
             lrepo.UpdateBooking(booking);
 
             TempData["msg"] = "Lease Agreement created and sent to tenant for approval.";
@@ -54,7 +74,7 @@ namespace EstatePro.Controllers
             var booking = lrepo.GetBookingById(data.BookingId);
 
             ViewBag.PropertyTitle = booking.Property.Title;
-            ViewBag.TenantName = booking.User.FirstName+" "+booking.User.LastName;
+            ViewBag.TenantName = booking.User.FirstName + " " + booking.User.LastName;
 
 
             return View(data);

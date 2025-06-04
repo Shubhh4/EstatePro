@@ -4,28 +4,28 @@ using EstatePro.Repository;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
 
-namespace EstatePro.Services 
+namespace EstatePro.Services
 {
     public class LeaseTenantService : LeaseTenantRepo
     {
         ApplicationDbContext db;
-        public LeaseTenantService(ApplicationDbContext db) 
+        public LeaseTenantService(ApplicationDbContext db)
         {
             this.db = db;
         }
 
         public List<LeaseAgreement> GetLeasesByTenantId(int id)
-        { 
-            var data= db.LeaseAgreements
+        {
+            var data = db.LeaseAgreements
                      .Include(l => l.Property)
                      .Include(l => l.Booking)
                      .Where(l => l.TenantId == id)
                      .ToList();
             return data;
         }
-        public LeaseAgreement GetLeaseById(int id) 
-        { 
-            var data= db.LeaseAgreements
+        public LeaseAgreement GetLeaseById(int id)
+        {
+            var data = db.LeaseAgreements
                      .Include(l => l.Property)
                      .Include(l => l.Booking)
                      .FirstOrDefault(l => l.LeaseId == id);
@@ -38,7 +38,6 @@ namespace EstatePro.Services
             if (lease != null)
             {
                 lease.LeaseStatus = LeaseStatus.Accepted;
-                //lease.AcceptedOn = DateTime.Now;
                 db.SaveChanges();
             }
         }
@@ -49,12 +48,11 @@ namespace EstatePro.Services
             if (lease != null)
             {
                 lease.LeaseStatus = LeaseStatus.Rejected;
-                //lease.AcceptedOn = DateTime.Now;
                 db.SaveChanges();
             }
         }
 
-        public void PaySecurityDeposit(int id) 
+        public void PaySecurityDeposit(int id)
         {
             var lease = db.LeaseAgreements.Find(id);
             if (lease != null && !lease.IsDepositPaid)
@@ -62,7 +60,6 @@ namespace EstatePro.Services
                 lease.IsDepositPaid = true;
                 db.SaveChanges();
 
-                // Generate initial rent entry for the next month
                 db.Rents.Add(new Rent
                 {
                     LeaseId = id,
@@ -73,17 +70,17 @@ namespace EstatePro.Services
                 db.SaveChanges();
             }
         }
-        public List<Rent> GetRentByLeaseId(int id) 
+        public List<Rent> GetRentByLeaseId(int id)
         {
             var data = db.Rents.Where(r => r.LeaseId == id).OrderBy(r => r.DueDate).ToList();
             return data;
         }
-        public Rent GetRentById(int id) 
+        public Rent GetRentById(int id)
         {
             var data = db.Rents.Include(r => r.LeaseAgreement).FirstOrDefault(r => r.RentId == id);
             return data;
         }
-        public void PayRent(int id) 
+        public void PayRent(int id)
         {
             var rent = db.Rents.Find(id);
             if (rent != null && rent.IsPaid != true)
@@ -92,7 +89,6 @@ namespace EstatePro.Services
                 rent.PaidDate = DateTime.Now;
                 db.SaveChanges();
 
-                // Schedule next month's rent
                 var nextDue = rent.DueDate.AddMonths(1);
                 if (!db.Rents.Any(r => r.LeaseId == rent.LeaseId && r.DueDate == nextDue))
                 {

@@ -15,7 +15,7 @@ namespace EstatePro.Models
         [ForeignKey("Tenant")]
         public int TenantId { get; set; }
         public User Tenant { get; set; }
-        
+
         [ForeignKey("Booking")]
         public int BookingId { get; set; }
         public Booking Booking { get; set; }

@@ -52,10 +52,6 @@ namespace EstatePro.Data
                 .Property(t => t.PaymentStatus)
                 .HasConversion<string>();
 
-            modelBuilder.Entity<Transaction>()
-                .Property(t => t.TransactionType)
-                .HasConversion<string>();
-
             modelBuilder.Entity<Appointment>()
                 .Property(a => a.Status)
                 .HasConversion<string>();
@@ -131,17 +127,17 @@ namespace EstatePro.Data
                 .OnDelete(DeleteBehavior.Restrict);
 
             // Transaction: restrict on both to avoid cascade cycles
-            modelBuilder.Entity<Transaction>()
-                .HasOne(t => t.User)
-                .WithMany(u => u.Transactions)
-                .HasForeignKey(t => t.UserId)
-                .OnDelete(DeleteBehavior.Restrict);
+            //modelBuilder.Entity<Transaction>()
+            //    .HasOne(t => t.User)
+            //    .WithMany(u => u.Transactions)
+            //    .HasForeignKey(t => t.UserId)
+            //    .OnDelete(DeleteBehavior.Restrict);
 
-            modelBuilder.Entity<Transaction>()
-                .HasOne(t => t.Property)
-                .WithMany(p => p.Transactions)
-                .HasForeignKey(t => t.PropertyId)
-                .OnDelete(DeleteBehavior.Restrict);
+            //modelBuilder.Entity<Transaction>()
+            //    .HasOne(t => t.Property)
+            //    .WithMany(p => p.Transactions)
+            //    .HasForeignKey(t => t.PropertyId)
+            //    .OnDelete(DeleteBehavior.Restrict);
 
             // Property-Owner relation: restrict to avoid cascade loops
             modelBuilder.Entity<Property>()

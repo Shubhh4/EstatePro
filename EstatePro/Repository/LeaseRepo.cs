@@ -4,8 +4,11 @@ namespace EstatePro.Repository
 {
     public interface LeaseRepo
     {
+        UserRole GetRole(int id);
         List<LeaseAgreement> fetchLeaseAgreement();
-        List<Booking> GetConfirmedBookings();
+        List<LeaseAgreement> GetLeasesByOwnerId(int id);
+        List<Booking> GetConfirmedBookings(int id, string role);
+
         Booking GetBookingById(int id);
         void UpdateBooking(Booking booking);
         void AddLeaseAgreement(LeaseAgreement e);

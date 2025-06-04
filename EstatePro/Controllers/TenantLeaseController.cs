@@ -8,9 +8,9 @@ namespace EstatePro.Controllers
     public class TenantLeaseController : Controller
     {
         LeaseTenantRepo ltrepo;
-        public TenantLeaseController(LeaseTenantRepo ltrepo) 
-        { 
-            this.ltrepo=ltrepo;
+        public TenantLeaseController(LeaseTenantRepo ltrepo)
+        {
+            this.ltrepo = ltrepo;
         }
         public IActionResult Index()
         {
@@ -37,15 +37,30 @@ namespace EstatePro.Controllers
         public IActionResult RejectAgreement(int id)
         {
             ltrepo.RejectLeaseAgreement(id);
-            TempData["msg"] = "Lease Rejected!";
+            TempData["danger"] = "Lease Rejected!";
             return RedirectToAction("Index");
         }
         [HttpPost]
         public IActionResult PayDeposit(int id)
         {
-            ltrepo.PaySecurityDeposit(id);
+            var lease = ltrepo.GetLeaseById(id);
+            if (lease == null || lease.IsDepositPaid)
+            {
+                return RedirectToAction("LeaseDetails", new { id });
+            }
+            ViewBag.KeyId = "rzp_test_Kl7588Yie2yJTV";
+            ViewBag.Amount = lease.SecurityDeposit * 100;
+            ViewBag.LeaseId = lease.LeaseId;
+
+            return View("PayDeposit");
+        }
+
+        [HttpPost]
+        public IActionResult ConfirmDeposit(int leaseId)
+        {
+            ltrepo.PaySecurityDeposit(leaseId);
             TempData["msg"] = "Security deposit paid!";
-            return RedirectToAction("LeaseDetails", new { id });
+            return RedirectToAction("LeaseDetails", new { id = leaseId });
         }
 
         public IActionResult RentList(int leaseId)
@@ -58,13 +73,23 @@ namespace EstatePro.Controllers
         public IActionResult PayRent(int id)
         {
             var rent = ltrepo.GetRentById(id);
-            if (rent != null)
-            {
-                ltrepo.PayRent(id);
-                TempData["msg"] = "Rent Paid!";
-                return RedirectToAction("RentList", new { leaseId = rent.LeaseId });
-            }
-            return NotFound();
+            if (rent == null || rent.IsPaid)
+                return NotFound();
+
+            ViewBag.KeyId = "rzp_test_Kl7588Yie2yJTV";
+            ViewBag.RentId = rent.RentId;
+            ViewBag.Amount = rent.Amount * 100;
+
+            return View("PayRent");
+        }
+
+        [HttpPost]
+        public IActionResult ConfirmRent(int rentId)
+        {
+            ltrepo.PayRent(rentId);
+            TempData["msg"] = "Rent paid!";
+            var rent = ltrepo.GetRentById(rentId);
+            return RedirectToAction("RentList", new { leaseId = rent.LeaseId });
         }
     }
 }

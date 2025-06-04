@@ -12,9 +12,28 @@ namespace EstatePro.Services
         {
             this.db = db;
         }
+
+        public UserRole GetRole(int id)
+        {
+            var role = db.Users
+                         .Where(x => x.UserId == id)
+                         .Select(x => x.Role)
+                         .FirstOrDefault();
+
+            return role;
+        }
+
+        public List<LeaseAgreement> GetLeasesByOwnerId(int id)
+        {
+            return db.LeaseAgreements
+                .Include(l => l.Property)
+                .Include(l => l.Tenant)
+                .Where(l => l.Property.OwnerId == id)
+                .ToList();
+        }
         public List<LeaseAgreement> fetchLeaseAgreement()
         {
-            var data = db.LeaseAgreements.Include(x => x.Property).Include(x=>x.Tenant).ToList();
+            var data = db.LeaseAgreements.Include(x => x.Property).Include(x => x.Tenant).ToList();
             return data;
         }
 
@@ -23,9 +42,25 @@ namespace EstatePro.Services
             return db.Bookings
                 .Include(b => b.Property)
                 .Include(b => b.User)
-                .Where(b => b.Status == BookingStatus.AcceptedByAdmin)
+                .Where(b => b.Status == BookingStatus.AcceptedByAdmin.ToString())
                 .ToList();
         }
+
+        public List<Booking> GetConfirmedBookings(int id, string role)
+        {
+            var query = db.Bookings
+                .Include(b => b.Property)
+                .Include(b => b.User)
+                .Where(b => b.Status == BookingStatus.AcceptedByAdmin.ToString());
+
+            if (role == "Agent" || role == "Seller")
+            {
+                query = query.Where(b => b.Property.OwnerId == id); // Only properties listed by the logged-in agent/seller
+            }
+
+            return query.ToList();
+        }
+
         public Booking GetBookingById(int id)
         {
             var data = db.Bookings
