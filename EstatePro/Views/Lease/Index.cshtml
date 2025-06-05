@@ -1,5 +1,5 @@
 ﻿@model List<LeaseAgreement>
-<partial name="Notification"></partial>
+    <partial name="Notification"></partial>
 <a asp-controller="Lease" asp-action="AddLeaseAgreement" class="btn btn-primary">Add Lease Agreement</a>
 <br />
 <br />
@@ -32,6 +32,10 @@
                 <td>
                     <a asp-controller="Lease" asp-action="DeleteLeaseAgreement" onclick="return confirm('Are you sure?')" asp-route-id="@e.LeaseId" class="btn btn-sm btn-danger">Delete</a>
                     <a asp-controller="Lease" asp-action="EditLeaseAgreement" asp-route-id="@e.LeaseId" class="btn btn-sm btn-success">Edit</a>
+                    @if (e.LeaseStatus == LeaseStatus.Accepted)
+                    {
+                        <a asp-controller="Lease" asp-action="RentList" asp-route-id="@e.LeaseId" class="btn btn-primary">View Rent History</a>
+                    }
                 </td>
             </tr>
         }

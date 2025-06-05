@@ -37,6 +37,7 @@ namespace EstatePro.Controllers
 
         public IActionResult AddLeaseAgreement()
         {
+            
             int userId = 1;
             string role = lrepo.GetRole(userId).ToString();
 
@@ -53,6 +54,21 @@ namespace EstatePro.Controllers
         [HttpPost]
         public IActionResult AddLeaseAgreement(LeaseAgreement e)
         {
+            int userId = 1;
+            string role = lrepo.GetRole(userId).ToString();
+
+            var bookings = lrepo.GetConfirmedBookings(userId, role);
+            ViewBag.Bookings = bookings.Select(b => new SelectListItem
+            {
+                Value = b.BookingId.ToString(),
+                Text = $"{b.Property.Title} booked by {b.User.FirstName} {b.User.LastName}"
+            }).ToList();
+
+            if (e.LeaseEndDate < e.LeaseStartDate)
+            {
+                ModelState.AddModelError("LeaseEndDate", "End date must be after start date.");
+                return View(e);
+            }
             var booking = lrepo.GetBookingById(e.BookingId);
             e.PropertyId = booking.PropertyId;
             e.TenantId = booking.UserId;
@@ -104,6 +120,13 @@ namespace EstatePro.Controllers
             lrepo.DeleteLeaseAgreement(id);
             TempData["danger"] = "LeaseAgreement Deleted!!!";
             return RedirectToAction("Index");
+        }
+
+        public IActionResult RentList(int id)
+        {
+            var rents = lrepo.GetRentByLeaseId(id);
+            ViewBag.LeaseId = id;
+            return View(rents);
         }
     }
 }

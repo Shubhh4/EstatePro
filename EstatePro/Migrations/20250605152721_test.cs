@@ -111,10 +111,11 @@ namespace EstatePro.Migrations
                 {
                     BookingId = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
+                    BookingDate = table.Column<DateTime>(type: "datetime2", nullable: false),
+                    Status = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    IsPaid = table.Column<bool>(type: "bit", nullable: false),
                     PropertyId = table.Column<int>(type: "int", nullable: false),
-                    UserId = table.Column<int>(type: "int", nullable: false),
-                    Status = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    BookingDate = table.Column<DateTime>(type: "datetime2", nullable: true)
+                    UserId = table.Column<int>(type: "int", nullable: false)
                 },
                 constraints: table =>
                 {
@@ -163,36 +164,6 @@ namespace EstatePro.Migrations
                 });
 
             migrationBuilder.CreateTable(
-                name: "Transactions",
-                columns: table => new
-                {
-                    TransactionId = table.Column<int>(type: "int", nullable: false)
-                        .Annotation("SqlServer:Identity", "1, 1"),
-                    UserId = table.Column<int>(type: "int", nullable: false),
-                    PropertyId = table.Column<int>(type: "int", nullable: false),
-                    Amount = table.Column<decimal>(type: "decimal(18,2)", nullable: true),
-                    TransactionDate = table.Column<DateTime>(type: "datetime2", nullable: true),
-                    TransactionType = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    PaymentStatus = table.Column<string>(type: "nvarchar(max)", nullable: true)
-                },
-                constraints: table =>
-                {
-                    table.PrimaryKey("PK_Transactions", x => x.TransactionId);
-                    table.ForeignKey(
-                        name: "FK_Transactions_Properties_PropertyId",
-                        column: x => x.PropertyId,
-                        principalTable: "Properties",
-                        principalColumn: "PropertyId",
-                        onDelete: ReferentialAction.Restrict);
-                    table.ForeignKey(
-                        name: "FK_Transactions_Users_UserId",
-                        column: x => x.UserId,
-                        principalTable: "Users",
-                        principalColumn: "UserId",
-                        onDelete: ReferentialAction.Restrict);
-                });
-
-            migrationBuilder.CreateTable(
                 name: "LeaseAgreements",
                 columns: table => new
                 {
@@ -203,8 +174,8 @@ namespace EstatePro.Migrations
                     BookingId = table.Column<int>(type: "int", nullable: false),
                     LeaseStartDate = table.Column<DateTime>(type: "datetime2", nullable: false),
                     LeaseEndDate = table.Column<DateTime>(type: "datetime2", nullable: false),
-                    RentAmount = table.Column<decimal>(type: "decimal(18,2)", nullable: true),
-                    SecurityDeposit = table.Column<decimal>(type: "decimal(18,2)", nullable: true),
+                    RentAmount = table.Column<decimal>(type: "decimal(18,2)", nullable: false),
+                    SecurityDeposit = table.Column<decimal>(type: "decimal(18,2)", nullable: false),
                     IsDepositPaid = table.Column<bool>(type: "bit", nullable: false),
                     LeaseStatus = table.Column<string>(type: "nvarchar(max)", nullable: false)
                 },
@@ -232,6 +203,41 @@ namespace EstatePro.Migrations
                 });
 
             migrationBuilder.CreateTable(
+                name: "Transactions",
+                columns: table => new
+                {
+                    TransactionId = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    Amount = table.Column<decimal>(type: "decimal(18,2)", nullable: false),
+                    PaymentMethod = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    PaymentStatus = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    TransactionDate = table.Column<DateTime>(type: "datetime2", nullable: false),
+                    BookingId = table.Column<int>(type: "int", nullable: false),
+                    PropertyId = table.Column<int>(type: "int", nullable: true),
+                    UserId = table.Column<int>(type: "int", nullable: true)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Transactions", x => x.TransactionId);
+                    table.ForeignKey(
+                        name: "FK_Transactions_Bookings_BookingId",
+                        column: x => x.BookingId,
+                        principalTable: "Bookings",
+                        principalColumn: "BookingId",
+                        onDelete: ReferentialAction.Cascade);
+                    table.ForeignKey(
+                        name: "FK_Transactions_Properties_PropertyId",
+                        column: x => x.PropertyId,
+                        principalTable: "Properties",
+                        principalColumn: "PropertyId");
+                    table.ForeignKey(
+                        name: "FK_Transactions_Users_UserId",
+                        column: x => x.UserId,
+                        principalTable: "Users",
+                        principalColumn: "UserId");
+                });
+
+            migrationBuilder.CreateTable(
                 name: "Rents",
                 columns: table => new
                 {
@@ -241,8 +247,7 @@ namespace EstatePro.Migrations
                     DueDate = table.Column<DateTime>(type: "datetime2", nullable: false),
                     PaidDate = table.Column<DateTime>(type: "datetime2", nullable: true),
                     Amount = table.Column<decimal>(type: "decimal(18,2)", nullable: true),
-                    IsPaid = table.Column<bool>(type: "bit", nullable: false),
-                    RentStatus = table.Column<string>(type: "nvarchar(max)", nullable: true)
+                    IsPaid = table.Column<bool>(type: "bit", nullable: false)
                 },
                 constraints: table =>
                 {
@@ -309,6 +314,11 @@ namespace EstatePro.Migrations
                 name: "IX_Reviews_UserId",
                 table: "Reviews",
                 column: "UserId");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_Transactions_BookingId",
+                table: "Transactions",
+                column: "BookingId");
 
             migrationBuilder.CreateIndex(
                 name: "IX_Transactions_PropertyId",

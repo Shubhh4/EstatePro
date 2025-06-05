@@ -15,5 +15,6 @@ namespace EstatePro.Repository
         LeaseAgreement GetLeaseAgreementById(int id);
         void EditLeaseAgreement(LeaseAgreement e);
         void DeleteLeaseAgreement(int id);
+        List<Rent> GetRentByLeaseId(int id);
     }
 }

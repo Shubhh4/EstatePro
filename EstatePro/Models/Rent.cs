@@ -22,7 +22,7 @@ namespace EstatePro.Models
 
         //public DateTime? CreatedAt { get; set; } = DateTime.UtcNow;
 
-        public RentStatus? RentStatus { get; set; }
+        //public RentStatus? RentStatus { get; set; }
     }
 
 

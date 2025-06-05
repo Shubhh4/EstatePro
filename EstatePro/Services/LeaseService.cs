@@ -109,5 +109,11 @@ namespace EstatePro.Services
             db.LeaseAgreements.Remove(data);
             db.SaveChanges();
         }
+
+        public List<Rent> GetRentByLeaseId(int id)
+        {
+            var data = db.Rents.Where(r => r.LeaseId == id).OrderBy(r => r.DueDate).ToList();
+            return data;
+        }
     }
 }

@@ -56,9 +56,9 @@ namespace EstatePro.Data
                 .Property(a => a.Status)
                 .HasConversion<string>();
 
-            modelBuilder.Entity<Rent>()
-                .Property(r => r.RentStatus)
-                .HasConversion<string>();
+            //modelBuilder.Entity<Rent>()
+            //    .Property(r => r.RentStatus)
+            //    .HasConversion<string>();
 
             modelBuilder.Entity<Report>()
                 .Property(r => r.ReportType)

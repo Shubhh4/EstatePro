@@ -112,9 +112,11 @@ namespace EstatePro.Migrations
                         .HasColumnType("int");
 
                     b.Property<decimal?>("RentAmount")
+                        .IsRequired()
                         .HasColumnType("decimal(18,2)");
 
                     b.Property<decimal?>("SecurityDeposit")
+                        .IsRequired()
                         .HasColumnType("decimal(18,2)");
 
                     b.Property<int>("TenantId")
@@ -213,9 +215,6 @@ namespace EstatePro.Migrations
 
                     b.Property<DateTime?>("PaidDate")
                         .HasColumnType("datetime2");
-
-                    b.Property<string>("RentStatus")
-                        .HasColumnType("nvarchar(max)");
 
                     b.HasKey("RentId");
 
