@@ -15,13 +15,8 @@ builder.Services.AddDbContext<ApplicationDbContext>
             builder.Configuration.GetConnectionString("dbconn")
         )
     );
-builder.Services.AddScoped<IProperty, PropertyService>();
 builder.Services.AddScoped<LeaseRepo, LeaseService>();
 builder.Services.AddScoped<LeaseTenantRepo, LeaseTenantService>();
-builder.Services.AddScoped<ReviewRepo, ReviewService>();
-builder.Services.AddScoped<ReportRepo, ReportService>();
-builder.Services.AddScoped<IBookingRepository, BookingService>();
-builder.Services.AddScoped<ITransactionRepository, TransactionService>();
 
 var app = builder.Build();
 
