@@ -70,6 +70,17 @@ namespace EstatePro.Services
                 db.SaveChanges();
             }
         }
+
+        public Property GetPropertyById(int id)
+        {
+            var data = db.Properties.FirstOrDefault(b => b.PropertyId == id);
+            return data;
+        }
+        public void UpdateProperty(Property property)
+        {
+            db.Properties.Update(property);
+            db.SaveChanges();
+        }
         public List<Rent> GetRentByLeaseId(int id)
         {
             var data = db.Rents.Where(r => r.LeaseId == id).OrderBy(r => r.DueDate).ToList();
@@ -83,6 +94,8 @@ namespace EstatePro.Services
         public void PayRent(int id)
         {
             var rent = db.Rents.Find(id);
+
+            var lease = GetLeaseById(rent.LeaseId);
             if (rent != null && rent.IsPaid != true)
             {
                 rent.IsPaid = true;
@@ -90,16 +103,19 @@ namespace EstatePro.Services
                 db.SaveChanges();
 
                 var nextDue = rent.DueDate.AddMonths(1);
-                if (!db.Rents.Any(r => r.LeaseId == rent.LeaseId && r.DueDate == nextDue))
+                if (nextDue<=lease.LeaseEndDate) 
                 {
-                    db.Rents.Add(new Rent
+                    if (!db.Rents.Any(r => r.LeaseId == rent.LeaseId && r.DueDate == nextDue))
                     {
-                        LeaseId = rent.LeaseId,
-                        DueDate = nextDue,
-                        Amount = rent.Amount,
-                        IsPaid = false
-                    });
-                    db.SaveChanges();
+                        db.Rents.Add(new Rent
+                        {
+                            LeaseId = rent.LeaseId,
+                            DueDate = nextDue,
+                            Amount = rent.Amount,
+                            IsPaid = false
+                        });
+                        db.SaveChanges();
+                    }
                 }
             }
         }

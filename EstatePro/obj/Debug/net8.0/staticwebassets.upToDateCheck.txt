@@ -6,6 +6,7 @@ wwwroot\css\bootstrap\mixins\_text-truncate.css
 wwwroot\css\bootstrap-grid.css
 wwwroot\css\bootstrap-reboot.css
 wwwroot\css\bootstrap-utilities.css
+wwwroot\css\dashboard.css
 wwwroot\css\index.html
 wwwroot\css\style.css
 wwwroot\css\tiny-slider.css

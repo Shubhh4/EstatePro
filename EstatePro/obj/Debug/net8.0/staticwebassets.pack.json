@@ -41,6 +41,10 @@
       "PackagePath": "staticwebassets\\css\\bootstrap\\mixins\\_text-truncate.css"
     },
     {
+      "Id": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\wwwroot\\css\\dashboard.css",
+      "PackagePath": "staticwebassets\\css\\dashboard.css"
+    },
+    {
       "Id": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\wwwroot\\css\\index.html",
       "PackagePath": "staticwebassets\\css\\index.html"
     },

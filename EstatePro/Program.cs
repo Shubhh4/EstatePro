@@ -17,6 +17,7 @@ builder.Services.AddDbContext<ApplicationDbContext>
     );
 builder.Services.AddScoped<LeaseRepo, LeaseService>();
 builder.Services.AddScoped<LeaseTenantRepo, LeaseTenantService>();
+builder.Services.AddScoped<DashboardRepo, DashboardService>();
 
 var app = builder.Build();
 

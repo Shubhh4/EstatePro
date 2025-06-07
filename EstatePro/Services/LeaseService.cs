@@ -42,7 +42,7 @@ namespace EstatePro.Services
             return db.Bookings
                 .Include(b => b.Property)
                 .Include(b => b.User)
-                .Where(b => b.Status == BookingStatus.AcceptedByAdmin.ToString())
+                .Where(b => b.Status == BookingStatus.AcceptedByAdmin.ToString() && b.Property.ListingType==ListingType.Rent)
                 .ToList();
         }
 
@@ -51,7 +51,7 @@ namespace EstatePro.Services
             var query = db.Bookings
                 .Include(b => b.Property)
                 .Include(b => b.User)
-                .Where(b => b.Status == BookingStatus.AcceptedByAdmin.ToString());
+                .Where(b => b.Status == BookingStatus.AcceptedByAdmin.ToString() && b.Property.ListingType == ListingType.Rent);
 
             if (role == "Agent" || role == "Seller")
             {

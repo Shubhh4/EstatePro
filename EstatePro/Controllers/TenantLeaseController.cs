@@ -1,4 +1,5 @@
 ﻿using System.Security.Claims;
+using EstatePro.Models;
 using EstatePro.Repository;
 using EstatePro.Services;
 using Microsoft.AspNetCore.Mvc;
@@ -59,6 +60,13 @@ namespace EstatePro.Controllers
         public IActionResult ConfirmDeposit(int leaseId)
         {
             ltrepo.PaySecurityDeposit(leaseId);
+
+            var data=ltrepo.GetLeaseById(leaseId);
+
+            var property = ltrepo.GetPropertyById(data.PropertyId);
+            property.Status = PropertyStatus.Rented;
+            ltrepo.UpdateProperty(property);
+
             TempData["msg"] = "Security deposit paid!";
             return RedirectToAction("LeaseDetails", new { id = leaseId });
         }

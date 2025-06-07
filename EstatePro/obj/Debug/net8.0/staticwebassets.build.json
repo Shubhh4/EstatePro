@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "GuhSbGDD6yU16lE2Tq4mrr57em179rtFMQEqXJUCZFk=",
+  "Hash": "kuxI8iYt7GWs4wExLurXcRtqkkYwveHPE/SuSpYs+pw=",
   "Source": "EstatePro",
   "BasePath": "_content/EstatePro",
   "Mode": "Default",
@@ -225,6 +225,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Identity": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\wwwroot\\css\\dashboard.css",
+      "SourceId": "EstatePro",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\wwwroot\\",
+      "BasePath": "_content/EstatePro",
+      "RelativePath": "css/dashboard#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "lobg3ef2vz",
+      "Integrity": "JeqmR767g04oxAxvv+ZV45WzWsNyalpn2b4PYOw1g6g=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\dashboard.css"
     },
     {
       "Identity": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\wwwroot\\css\\index.html",
@@ -5165,6 +5186,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-t4s0/0sJeUvWnH3RTHwzNZZoM1nFXUhPO3Nu7b1RcW4="
+        }
+      ]
+    },
+    {
+      "Route": "css/dashboard.css",
+      "AssetFile": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\wwwroot\\css\\dashboard.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1169"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"JeqmR767g04oxAxvv+ZV45WzWsNyalpn2b4PYOw1g6g=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 06 Jun 2025 15:24:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-JeqmR767g04oxAxvv+ZV45WzWsNyalpn2b4PYOw1g6g="
+        }
+      ]
+    },
+    {
+      "Route": "css/dashboard.lobg3ef2vz.css",
+      "AssetFile": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\wwwroot\\css\\dashboard.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1169"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"JeqmR767g04oxAxvv+ZV45WzWsNyalpn2b4PYOw1g6g=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 06 Jun 2025 15:24:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "lobg3ef2vz"
+        },
+        {
+          "Name": "label",
+          "Value": "css/dashboard.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-JeqmR767g04oxAxvv+ZV45WzWsNyalpn2b4PYOw1g6g="
         }
       ]
     },

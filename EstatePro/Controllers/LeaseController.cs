@@ -37,7 +37,6 @@ namespace EstatePro.Controllers
 
         public IActionResult AddLeaseAgreement()
         {
-            
             int userId = 1;
             string role = lrepo.GetRole(userId).ToString();
 
