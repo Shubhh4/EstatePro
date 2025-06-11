@@ -11,6 +11,7 @@ namespace EstatePro.Data
         }
         public DbSet<User> Users { get; set; }
         public DbSet<Property> Properties { get; set; }
+        public DbSet<PropertyImage> PropertyImages { get; set; }
         public DbSet<Booking> Bookings { get; set; }
         public DbSet<LeaseAgreement> LeaseAgreements { get; set; }
         public DbSet<Review> Reviews { get; set; }

@@ -15,7 +15,7 @@ namespace EstatePro.Controllers
         }
         public IActionResult Index()
         {
-            int tenantId = 4;
+            int tenantId = (int)HttpContext.Session.GetInt32("UserId");
             var leases = ltrepo.GetLeasesByTenantId(tenantId);
             return View(leases);
         }

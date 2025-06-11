@@ -20,5 +20,11 @@
         public int? PendingLease { get; set; }
         public int? RejectedLease { get; set; }
         public decimal? TotalRentAmount { get; set; }
+
+        public int? TotalBookings { get; set; }
+        public int? AcceptedBookings { get; set; }
+        public int? PendingBookings { get; set; }
+        public int? RejectedBookings { get; set; }
+
     }
 }

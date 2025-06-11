@@ -14,7 +14,7 @@ namespace EstatePro.Controllers
         }
         public IActionResult Index()
         {
-            int userId = 1;
+            int userId = (int)HttpContext.Session.GetInt32("UserId");
             string role = lrepo.GetRole(userId).ToString();
 
             List<LeaseAgreement> leases;
@@ -37,7 +37,7 @@ namespace EstatePro.Controllers
 
         public IActionResult AddLeaseAgreement()
         {
-            int userId = 1;
+            int userId = (int)HttpContext.Session.GetInt32("UserId");
             string role = lrepo.GetRole(userId).ToString();
 
             var bookings = lrepo.GetConfirmedBookings(userId, role);
@@ -53,7 +53,7 @@ namespace EstatePro.Controllers
         [HttpPost]
         public IActionResult AddLeaseAgreement(LeaseAgreement e)
         {
-            int userId = 1;
+            int userId = (int)HttpContext.Session.GetInt32("UserId");
             string role = lrepo.GetRole(userId).ToString();
 
             var bookings = lrepo.GetConfirmedBookings(userId, role);

@@ -1,0 +1,182 @@
+﻿@model List<Booking>
+@{
+    var role = Context.Session.GetString("UserRole");
+}
+<h2>Bookings</h2>
+<a asp-controller="Property" asp-action="Browse" class="btn btn-primary mb-3">New Booking</a>
+
+@if (Model != null && Model.Any())
+{
+
+    <script src="https://checkout.razorpay.com/v1/checkout.js"></script>
+    <script>
+        function payNow(bookingId, name, email, contact) {
+        fetch(`/Booking/CreateOrder?bookingId=${bookingId}`)
+        .then(res => res.json())
+        .then(data => {
+        var options = {
+        "key": data.key,
+        "amount": data.amount,
+        "currency": "INR",
+        "name": "EstatePro Booking Payment",
+        "description": "Complete your booking",
+        "order_id": data.orderId,
+        "handler": function (response) {
+        window.location.href = `/Booking/PaymentSuccess?bookingId=${bookingId}&paymentId=${response.razorpay_payment_id}`;
+        },
+        "prefill": {
+        "name": name,
+        "email": email,
+        "contact": contact
+        },
+        "theme": {
+        "color": "#3399cc"
+        }
+        };
+        var rzp = new Razorpay(options);
+        rzp.open();
+        });
+        }
+    </script>
+
+    <table class="table table-bordered">
+        <thead class="thead-dark">
+            <tr>
+                <th>ID</th>
+                <th>Property</th>
+                <th>User</th>
+                <th>Date</th>
+                <th>Verification Status</th>
+                <th>Current Status</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var booking in Model)
+            {
+                <tr>
+                    <td>@booking.BookingId</td>
+                    <td>@booking.Property.Title</td>
+                    <td>@booking.User.FirstName @booking.User.LastName</td>
+                    <td>@booking.BookingDate.ToShortDateString()</td>
+                    <td>@booking.Status</td>
+
+                    <td>
+                        @if (booking.Status == "Pending")
+                        {
+                            <span class="badge bg-warning">Awaiting Approval</span>
+                        }
+                        else if (booking.Status == "Rejected")
+                        {
+                            <span class="badge bg-danger">Rejected</span>
+                        }
+                        else if (booking.Status == "Confirmed")
+                        {
+                            if (!booking.IsPaid && role == "Buyer")
+                            {
+                                <button class="btn btn-success btn-sm"
+                                        onclick="payNow('@booking.BookingId', '@booking.User.FirstName @booking.User.LastName', '@booking.User.Email', '@booking.User.PhoneNumber')">
+                                    Pay ₹@booking.Property.Price
+                                </button>
+                            }
+                            else if (role == "Tenant")
+                            {
+                                <a asp-controller="TenantLease" asp-action="Index" class="btn btn-primary btn-sm">View Lease</a>
+                            }
+                            else if (booking.IsPaid)
+                            {
+                                <span class="badge bg-success">Paid</span>
+                            }
+                        }
+                        @* else if (booking.IsPaid)
+                        {
+                            <span class="badge bg-success">Paid</span>
+                        } *@
+                        else
+                        {
+                            <span class="badge bg-success">Paid</span>
+                        }
+                    </td>
+                    <td>
+                        <a asp-controller="Booking" asp-action="Delete" asp-route-id="@booking.BookingId" onclick="return confirm('Are you Sure?')" class="btn btn-sm btn-danger">Delete</a>
+                    </td>
+
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <p>No Bookings Available</p>
+}
+<!-- jQuery and DataTables -->
+<script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+<script src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js"></script>
+<script src="https://cdn.datatables.net/buttons/2.4.2/js/dataTables.buttons.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.2.7/pdfmake.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.2.7/vfs_fonts.js"></script>
+<script src="https://cdn.datatables.net/buttons/2.4.2/js/buttons.html5.min.js"></script>
+<script src="https://cdn.datatables.net/buttons/2.4.2/js/buttons.print.min.js"></script>
+
+<!--Datatable-->
+<script>
+    $(document).ready(function () {
+        var table = $('#transactionTable').DataTable({
+            dom: 'Bfrtip',
+            buttons: ['copy', 'excel', 'pdf', 'print']
+        });
+
+        // Filters for each column
+        $('#idFilter').on('keyup', function () {
+            table.column(0).search(this.value).draw(); // ID
+        });
+
+        $('#userFilter').on('keyup', function () {
+            table.column(1).search(this.value).draw(); // User
+        });
+        $('#mailFilter').on('keyup', function () {
+            table.column(2).search(this.value).draw(); // email
+        });
+
+        $('#propertyFilter').on('keyup', function () {
+            table.column(3).search(this.value).draw(); // Property
+        });
+
+        $('#amountFilter').on('keyup', function () {
+            table.column(4).search(this.value).draw(); // Amount
+        });
+
+        $('#dateFilter').on('change', function () {
+            table.column(7).search(this.value).draw(); // Date
+        });
+    });
+</script>
+
+<!--for buyer transaction-->
+<script>
+    $(document).ready(function () {
+        var table = $('#buyertransactionTable').DataTable({
+            dom: 'Bfrtip',
+            buttons: ['copy', 'excel', 'pdf', 'print']
+        });
+
+        // Filters for each column
+        $('#idFilter').on('keyup', function () {
+            table.column(0).search(this.value).draw(); // ID
+        });
+
+        $('#propertyFilter').on('keyup', function () {
+            table.column(2).search(this.value).draw(); // Property
+        });
+
+        $('#amountFilter').on('keyup', function () {
+            table.column(3).search(this.value).draw(); // Amount
+        });
+
+        $('#dateFilter').on('change', function () {
+            table.column(6).search(this.value).draw(); // Date
+        });
+    });
+</script>

@@ -22,26 +22,23 @@ namespace EstatePro.Models
         public string? State { get; set; }
         public string? ZipCode { get; set; }
 
-        // Enums - here assumed enums
         public PropertyType PropertyType { get; set; }
         public ListingType ListingType { get; set; }
         public PropertyStatus Status { get; set; }
 
-        // Owner FK
         [ForeignKey("Owner")]
         public int OwnerId { get; set; }
-        public User Owner { get; set; }
+        public User? Owner { get; set; }
 
         public OwnerRole OwnerRole { get; set; }
-
         public DateTime? CreatedAt { get; set; } = DateTime.UtcNow;
 
         // Navigation
+        public ICollection<PropertyImage> Images { get; set; } = new List<PropertyImage>();
         public ICollection<Booking> Bookings { get; set; } = new List<Booking>();
         public ICollection<Review> Reviews { get; set; } = new List<Review>();
         public ICollection<LeaseAgreement> LeaseAgreements { get; set; } = new List<LeaseAgreement>();
         public ICollection<Appointment> Appointments { get; set; } = new List<Appointment>();
         public ICollection<Transaction> Transactions { get; set; } = new List<Transaction>();
-
     }
 }

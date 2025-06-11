@@ -1,0 +1,53 @@
+﻿@model List<Review>
+<partial name="Notification"></partial>
+<h2>All Reviews</h2>
+
+@if (TempData["msg"] != null)
+{
+    <div class="alert alert-success">@TempData["msg"]</div>
+}
+@if (TempData["upd"] != null)
+{
+    <div class="alert alert-info">@TempData["upd"]</div>
+}
+@if (TempData["danger"] != null)
+{
+    <div class="alert alert-danger">@TempData["danger"]</div>
+}
+
+@if (Model != null && Model.Any())
+{
+    <table class="table mt-3">
+        <thead>
+            <tr>
+                <th>User</th>
+                <th>Property</th>
+                <th>Rating</th>
+                <th>Review</th>
+                <th>Date</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var r in Model)
+            {
+                <tr>
+                    <td>@r.User?.FirstName @r.User?.LastName</td>
+                    <td>@r.Property?.Title</td> <!-- Use Title instead of Name -->
+                    <td>@r.Rating</td>
+                    <td>@r.ReviewText</td>
+                    <td>@(r.ReviewDate?.ToString("dd MMM yyyy"))</td>
+                    <td>
+                        <a asp-action="EditReview" asp-route-id="@r.ReviewId" class="btn btn-sm btn-primary">Edit</a>
+                        <a asp-action="DeleteReview" asp-route-id="@r.ReviewId" class="btn btn-sm btn-danger">Delete</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <p>No reviews found.</p>
+}
+

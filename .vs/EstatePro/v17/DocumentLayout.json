@@ -11,52 +11,112 @@
       "RelativeMoniker": "D:0:0:{25C3812E-2A3E-4DEE-8E70-51D0218A9A82}|EstatePro\\EstatePro.csproj|solutionrelative:estatepro\\services\\leaseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{25C3812E-2A3E-4DEE-8E70-51D0218A9A82}|EstatePro\\EstatePro.csproj|d:\\mts\\project3\\estatepro\\estatepro\\views\\report\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{25C3812E-2A3E-4DEE-8E70-51D0218A9A82}|EstatePro\\EstatePro.csproj|solutionrelative:estatepro\\views\\report\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25C3812E-2A3E-4DEE-8E70-51D0218A9A82}|EstatePro\\EstatePro.csproj|d:\\mts\\project3\\estatepro\\estatepro\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{25C3812E-2A3E-4DEE-8E70-51D0218A9A82}|EstatePro\\EstatePro.csproj|solutionrelative:estatepro\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25C3812E-2A3E-4DEE-8E70-51D0218A9A82}|EstatePro\\EstatePro.csproj|d:\\mts\\project3\\estatepro\\estatepro\\controllers\\reportcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25C3812E-2A3E-4DEE-8E70-51D0218A9A82}|EstatePro\\EstatePro.csproj|solutionrelative:estatepro\\controllers\\reportcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{25C3812E-2A3E-4DEE-8E70-51D0218A9A82}|EstatePro\\EstatePro.csproj|d:\\mts\\project3\\estatepro\\estatepro\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{25C3812E-2A3E-4DEE-8E70-51D0218A9A82}|EstatePro\\EstatePro.csproj|solutionrelative:estatepro\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{25C3812E-2A3E-4DEE-8E70-51D0218A9A82}|EstatePro\\EstatePro.csproj|d:\\mts\\project3\\estatepro\\estatepro\\controllers\\tenantleasecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{25C3812E-2A3E-4DEE-8E70-51D0218A9A82}|EstatePro\\EstatePro.csproj|solutionrelative:estatepro\\controllers\\tenantleasecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{25C3812E-2A3E-4DEE-8E70-51D0218A9A82}|EstatePro\\EstatePro.csproj|d:\\mts\\project3\\estatepro\\estatepro\\views\\dashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{25C3812E-2A3E-4DEE-8E70-51D0218A9A82}|EstatePro\\EstatePro.csproj|solutionrelative:estatepro\\views\\dashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{25C3812E-2A3E-4DEE-8E70-51D0218A9A82}|EstatePro\\EstatePro.csproj|d:\\mts\\project3\\estatepro\\estatepro\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{25C3812E-2A3E-4DEE-8E70-51D0218A9A82}|EstatePro\\EstatePro.csproj|solutionrelative:estatepro\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{25C3812E-2A3E-4DEE-8E70-51D0218A9A82}|EstatePro\\EstatePro.csproj|d:\\mts\\project3\\estatepro\\estatepro\\models\\enums.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{25C3812E-2A3E-4DEE-8E70-51D0218A9A82}|EstatePro\\EstatePro.csproj|solutionrelative:estatepro\\models\\enums.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{25C3812E-2A3E-4DEE-8E70-51D0218A9A82}|EstatePro\\EstatePro.csproj|d:\\mts\\project3\\estatepro\\estatepro\\repository\\leaserepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{25C3812E-2A3E-4DEE-8E70-51D0218A9A82}|EstatePro\\EstatePro.csproj|solutionrelative:estatepro\\repository\\leaserepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{25C3812E-2A3E-4DEE-8E70-51D0218A9A82}|EstatePro\\EstatePro.csproj|d:\\mts\\project3\\estatepro\\estatepro\\models\\dashboardview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{25C3812E-2A3E-4DEE-8E70-51D0218A9A82}|EstatePro\\EstatePro.csproj|solutionrelative:estatepro\\models\\dashboardview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{25C3812E-2A3E-4DEE-8E70-51D0218A9A82}|EstatePro\\EstatePro.csproj|d:\\mts\\project3\\estatepro\\estatepro\\services\\dashboardservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{25C3812E-2A3E-4DEE-8E70-51D0218A9A82}|EstatePro\\EstatePro.csproj|solutionrelative:estatepro\\services\\dashboardservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{25C3812E-2A3E-4DEE-8E70-51D0218A9A82}|EstatePro\\EstatePro.csproj|d:\\mts\\project3\\estatepro\\estatepro\\repository\\dashboardrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{25C3812E-2A3E-4DEE-8E70-51D0218A9A82}|EstatePro\\EstatePro.csproj|solutionrelative:estatepro\\repository\\dashboardrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{25C3812E-2A3E-4DEE-8E70-51D0218A9A82}|EstatePro\\EstatePro.csproj|d:\\mts\\project3\\estatepro\\estatepro\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{25C3812E-2A3E-4DEE-8E70-51D0218A9A82}|EstatePro\\EstatePro.csproj|solutionrelative:estatepro\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{25C3812E-2A3E-4DEE-8E70-51D0218A9A82}|EstatePro\\EstatePro.csproj|d:\\mts\\project3\\estatepro\\estatepro\\views\\tenantlease\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{25C3812E-2A3E-4DEE-8E70-51D0218A9A82}|EstatePro\\EstatePro.csproj|solutionrelative:estatepro\\views\\tenantlease\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{25C3812E-2A3E-4DEE-8E70-51D0218A9A82}|EstatePro\\EstatePro.csproj|d:\\mts\\project3\\estatepro\\estatepro\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{25C3812E-2A3E-4DEE-8E70-51D0218A9A82}|EstatePro\\EstatePro.csproj|solutionrelative:estatepro\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{25C3812E-2A3E-4DEE-8E70-51D0218A9A82}|EstatePro\\EstatePro.csproj|d:\\mts\\project3\\estatepro\\estatepro\\services\\propertyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25C3812E-2A3E-4DEE-8E70-51D0218A9A82}|EstatePro\\EstatePro.csproj|solutionrelative:estatepro\\services\\propertyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25C3812E-2A3E-4DEE-8E70-51D0218A9A82}|EstatePro\\EstatePro.csproj|d:\\mts\\project3\\estatepro\\estatepro\\repository\\ipropertyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25C3812E-2A3E-4DEE-8E70-51D0218A9A82}|EstatePro\\EstatePro.csproj|solutionrelative:estatepro\\repository\\ipropertyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25C3812E-2A3E-4DEE-8E70-51D0218A9A82}|EstatePro\\EstatePro.csproj|d:\\mts\\project3\\estatepro\\estatepro\\views\\property\\browse.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{25C3812E-2A3E-4DEE-8E70-51D0218A9A82}|EstatePro\\EstatePro.csproj|solutionrelative:estatepro\\views\\property\\browse.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25C3812E-2A3E-4DEE-8E70-51D0218A9A82}|EstatePro\\EstatePro.csproj|d:\\mts\\project3\\estatepro\\estatepro\\controllers\\bookingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25C3812E-2A3E-4DEE-8E70-51D0218A9A82}|EstatePro\\EstatePro.csproj|solutionrelative:estatepro\\controllers\\bookingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25C3812E-2A3E-4DEE-8E70-51D0218A9A82}|EstatePro\\EstatePro.csproj|d:\\mts\\project3\\estatepro\\estatepro\\services\\bookingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25C3812E-2A3E-4DEE-8E70-51D0218A9A82}|EstatePro\\EstatePro.csproj|solutionrelative:estatepro\\services\\bookingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25C3812E-2A3E-4DEE-8E70-51D0218A9A82}|EstatePro\\EstatePro.csproj|d:\\mts\\project3\\estatepro\\estatepro\\repository\\ibookingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25C3812E-2A3E-4DEE-8E70-51D0218A9A82}|EstatePro\\EstatePro.csproj|solutionrelative:estatepro\\repository\\ibookingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25C3812E-2A3E-4DEE-8E70-51D0218A9A82}|EstatePro\\EstatePro.csproj|d:\\mts\\project3\\estatepro\\estatepro\\controllers\\reviewcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25C3812E-2A3E-4DEE-8E70-51D0218A9A82}|EstatePro\\EstatePro.csproj|solutionrelative:estatepro\\controllers\\reviewcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25C3812E-2A3E-4DEE-8E70-51D0218A9A82}|EstatePro\\EstatePro.csproj|d:\\mts\\project3\\estatepro\\estatepro\\views\\review\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{25C3812E-2A3E-4DEE-8E70-51D0218A9A82}|EstatePro\\EstatePro.csproj|solutionrelative:estatepro\\views\\review\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25C3812E-2A3E-4DEE-8E70-51D0218A9A82}|EstatePro\\EstatePro.csproj|d:\\mts\\project3\\estatepro\\estatepro\\views\\review\\addreview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{25C3812E-2A3E-4DEE-8E70-51D0218A9A82}|EstatePro\\EstatePro.csproj|solutionrelative:estatepro\\views\\review\\addreview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25C3812E-2A3E-4DEE-8E70-51D0218A9A82}|EstatePro\\EstatePro.csproj|d:\\mts\\project3\\estatepro\\estatepro\\services\\reviewservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25C3812E-2A3E-4DEE-8E70-51D0218A9A82}|EstatePro\\EstatePro.csproj|solutionrelative:estatepro\\services\\reviewservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25C3812E-2A3E-4DEE-8E70-51D0218A9A82}|EstatePro\\EstatePro.csproj|d:\\mts\\project3\\estatepro\\estatepro\\views\\review\\editreview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{25C3812E-2A3E-4DEE-8E70-51D0218A9A82}|EstatePro\\EstatePro.csproj|solutionrelative:estatepro\\views\\review\\editreview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25C3812E-2A3E-4DEE-8E70-51D0218A9A82}|EstatePro\\EstatePro.csproj|d:\\mts\\project3\\estatepro\\estatepro\\views\\lease\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{25C3812E-2A3E-4DEE-8E70-51D0218A9A82}|EstatePro\\EstatePro.csproj|solutionrelative:estatepro\\views\\lease\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25C3812E-2A3E-4DEE-8E70-51D0218A9A82}|EstatePro\\EstatePro.csproj|d:\\mts\\project3\\estatepro\\estatepro\\repository\\reviewrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25C3812E-2A3E-4DEE-8E70-51D0218A9A82}|EstatePro\\EstatePro.csproj|solutionrelative:estatepro\\repository\\reviewrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25C3812E-2A3E-4DEE-8E70-51D0218A9A82}|EstatePro\\EstatePro.csproj|d:\\mts\\project3\\estatepro\\estatepro\\views\\booking\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{25C3812E-2A3E-4DEE-8E70-51D0218A9A82}|EstatePro\\EstatePro.csproj|solutionrelative:estatepro\\views\\booking\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25C3812E-2A3E-4DEE-8E70-51D0218A9A82}|EstatePro\\EstatePro.csproj|d:\\mts\\project3\\estatepro\\estatepro\\models\\review.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25C3812E-2A3E-4DEE-8E70-51D0218A9A82}|EstatePro\\EstatePro.csproj|solutionrelative:estatepro\\models\\review.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25C3812E-2A3E-4DEE-8E70-51D0218A9A82}|EstatePro\\EstatePro.csproj|d:\\mts\\project3\\estatepro\\estatepro\\controllers\\userdashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25C3812E-2A3E-4DEE-8E70-51D0218A9A82}|EstatePro\\EstatePro.csproj|solutionrelative:estatepro\\controllers\\userdashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{25C3812E-2A3E-4DEE-8E70-51D0218A9A82}|EstatePro\\EstatePro.csproj|d:\\mts\\project3\\estatepro\\estatepro\\models\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{25C3812E-2A3E-4DEE-8E70-51D0218A9A82}|EstatePro\\EstatePro.csproj|solutionrelative:estatepro\\models\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25C3812E-2A3E-4DEE-8E70-51D0218A9A82}|EstatePro\\EstatePro.csproj|d:\\mts\\project3\\estatepro\\estatepro\\views\\booking\\bookingrequests.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{25C3812E-2A3E-4DEE-8E70-51D0218A9A82}|EstatePro\\EstatePro.csproj|solutionrelative:estatepro\\views\\booking\\bookingrequests.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25C3812E-2A3E-4DEE-8E70-51D0218A9A82}|EstatePro\\EstatePro.csproj|d:\\mts\\project3\\estatepro\\estatepro\\migrations\\20250608141814_test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25C3812E-2A3E-4DEE-8E70-51D0218A9A82}|EstatePro\\EstatePro.csproj|solutionrelative:estatepro\\migrations\\20250608141814_test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25C3812E-2A3E-4DEE-8E70-51D0218A9A82}|EstatePro\\EstatePro.csproj|d:\\mts\\project3\\estatepro\\estatepro\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25C3812E-2A3E-4DEE-8E70-51D0218A9A82}|EstatePro\\EstatePro.csproj|solutionrelative:estatepro\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -66,7 +126,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 10,
+          "SelectedChildIndex": 26,
           "Children": [
             {
               "$type": "Bookmark",
@@ -109,17 +169,168 @@
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "LeaseTenantService.cs",
-              "DocumentMoniker": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\Services\\LeaseTenantService.cs",
-              "RelativeDocumentMoniker": "EstatePro\\Services\\LeaseTenantService.cs",
-              "ToolTip": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\Services\\LeaseTenantService.cs",
-              "RelativeToolTip": "EstatePro\\Services\\LeaseTenantService.cs",
-              "ViewState": "AgIAAEkAAAAAAAAAAAA6wHYAAAARAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\Views\\Report\\Index.cshtml",
+              "RelativeDocumentMoniker": "EstatePro\\Views\\Report\\Index.cshtml",
+              "ToolTip": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\Views\\Report\\Index.cshtml",
+              "RelativeToolTip": "EstatePro\\Views\\Report\\Index.cshtml",
+              "ViewState": "AgIAAFoAAAAAAAAAAAAAAF4AAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-09T05:37:35.595Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ReportController.cs",
+              "DocumentMoniker": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\Controllers\\ReportController.cs",
+              "RelativeDocumentMoniker": "EstatePro\\Controllers\\ReportController.cs",
+              "ToolTip": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\Controllers\\ReportController.cs",
+              "RelativeToolTip": "EstatePro\\Controllers\\ReportController.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAgwA0AAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-07T06:34:42.111Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-09T05:36:38.209Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "EstatePro\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "EstatePro\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAH0AAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-09T04:32:43.468Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "PropertyService.cs",
+              "DocumentMoniker": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\Services\\PropertyService.cs",
+              "RelativeDocumentMoniker": "EstatePro\\Services\\PropertyService.cs",
+              "ToolTip": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\Services\\PropertyService.cs",
+              "RelativeToolTip": "EstatePro\\Services\\PropertyService.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-08T19:29:01.221Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IPropertyRepository.cs",
+              "DocumentMoniker": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\Repository\\IPropertyRepository.cs",
+              "RelativeDocumentMoniker": "EstatePro\\Repository\\IPropertyRepository.cs",
+              "ToolTip": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\Repository\\IPropertyRepository.cs",
+              "RelativeToolTip": "EstatePro\\Repository\\IPropertyRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-08T19:28:49.678Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\Views\\Lease\\Index.cshtml",
+              "RelativeDocumentMoniker": "EstatePro\\Views\\Lease\\Index.cshtml",
+              "ToolTip": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\Views\\Lease\\Index.cshtml",
+              "RelativeToolTip": "EstatePro\\Views\\Lease\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-08T19:10:25.619Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\Views\\Review\\Index.cshtml",
+              "RelativeDocumentMoniker": "EstatePro\\Views\\Review\\Index.cshtml",
+              "ToolTip": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\Views\\Review\\Index.cshtml",
+              "RelativeToolTip": "EstatePro\\Views\\Review\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-08T19:03:01.643Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "EditReview.cshtml",
+              "DocumentMoniker": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\Views\\Review\\EditReview.cshtml",
+              "RelativeDocumentMoniker": "EstatePro\\Views\\Review\\EditReview.cshtml",
+              "ToolTip": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\Views\\Review\\EditReview.cshtml",
+              "RelativeToolTip": "EstatePro\\Views\\Review\\EditReview.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-08T19:02:18.991Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ReviewService.cs",
+              "DocumentMoniker": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\Services\\ReviewService.cs",
+              "RelativeDocumentMoniker": "EstatePro\\Services\\ReviewService.cs",
+              "ToolTip": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\Services\\ReviewService.cs",
+              "RelativeToolTip": "EstatePro\\Services\\ReviewService.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAuwEkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-08T18:54:15.152Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "ReviewRepo.cs",
+              "DocumentMoniker": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\Repository\\ReviewRepo.cs",
+              "RelativeDocumentMoniker": "EstatePro\\Repository\\ReviewRepo.cs",
+              "ToolTip": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\Repository\\ReviewRepo.cs",
+              "RelativeToolTip": "EstatePro\\Repository\\ReviewRepo.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAQwA0AAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-08T18:55:28.715Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Review.cs",
+              "DocumentMoniker": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\Models\\Review.cs",
+              "RelativeDocumentMoniker": "EstatePro\\Models\\Review.cs",
+              "ToolTip": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\Models\\Review.cs",
+              "RelativeToolTip": "EstatePro\\Models\\Review.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAqwA4AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-08T18:55:14.17Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ReviewController.cs",
+              "DocumentMoniker": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\Controllers\\ReviewController.cs",
+              "RelativeDocumentMoniker": "EstatePro\\Controllers\\ReviewController.cs",
+              "ToolTip": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\Controllers\\ReviewController.cs",
+              "RelativeToolTip": "EstatePro\\Controllers\\ReviewController.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAwwCcAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-08T18:49:04.61Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "AddReview.cshtml",
+              "DocumentMoniker": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\Views\\Review\\AddReview.cshtml",
+              "RelativeDocumentMoniker": "EstatePro\\Views\\Review\\AddReview.cshtml",
+              "ToolTip": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\Views\\Review\\AddReview.cshtml",
+              "RelativeToolTip": "EstatePro\\Views\\Review\\AddReview.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-08T18:40:28.719Z"
             },
             {
               "$type": "Document",
@@ -129,174 +340,190 @@
               "RelativeDocumentMoniker": "EstatePro\\Services\\LeaseService.cs",
               "ToolTip": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\Services\\LeaseService.cs",
               "RelativeToolTip": "EstatePro\\Services\\LeaseService.cs",
-              "ViewState": "AgIAAFIAAAAAAAAAAAAYwF0AAAAhAAAAAAAAAA==",
+              "ViewState": "AgIAAA8AAAAAAAAAAAA5wGMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-06T18:35:02.861Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-08T18:31:46.231Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "LeaseRepo.cs",
-              "DocumentMoniker": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\Repository\\LeaseRepo.cs",
-              "RelativeDocumentMoniker": "EstatePro\\Repository\\LeaseRepo.cs",
-              "ToolTip": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\Repository\\LeaseRepo.cs",
-              "RelativeToolTip": "EstatePro\\Repository\\LeaseRepo.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAgwAsAAAAnAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "LeaseTenantService.cs",
+              "DocumentMoniker": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\Services\\LeaseTenantService.cs",
+              "RelativeDocumentMoniker": "EstatePro\\Services\\LeaseTenantService.cs",
+              "ToolTip": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\Services\\LeaseTenantService.cs",
+              "RelativeToolTip": "EstatePro\\Services\\LeaseTenantService.cs",
+              "ViewState": "AgIAAGIAAAAAAAAAAAAswAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-07T06:32:09.159Z",
+              "WhenOpened": "2025-06-08T18:31:04.914Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\Views\\TenantLease\\Index.cshtml",
-              "RelativeDocumentMoniker": "EstatePro\\Views\\TenantLease\\Index.cshtml",
-              "ToolTip": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\Views\\TenantLease\\Index.cshtml",
-              "RelativeToolTip": "EstatePro\\Views\\TenantLease\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-06T19:13:03.859Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "TenantLeaseController.cs",
-              "DocumentMoniker": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\Controllers\\TenantLeaseController.cs",
-              "RelativeDocumentMoniker": "EstatePro\\Controllers\\TenantLeaseController.cs",
-              "ToolTip": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\Controllers\\TenantLeaseController.cs",
-              "RelativeToolTip": "EstatePro\\Controllers\\TenantLeaseController.cs",
-              "ViewState": "AgIAADkAAAAAAAAAAAAgwEAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-06T19:12:17.809Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\Program.cs",
-              "RelativeDocumentMoniker": "EstatePro\\Program.cs",
-              "ToolTip": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\Program.cs",
-              "RelativeToolTip": "EstatePro\\Program.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAABEAAAA2AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-06T15:11:31.039Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\Views\\Dashboard\\Index.cshtml",
-              "RelativeDocumentMoniker": "EstatePro\\Views\\Dashboard\\Index.cshtml",
-              "ToolTip": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\Views\\Dashboard\\Index.cshtml",
-              "RelativeToolTip": "EstatePro\\Views\\Dashboard\\Index.cshtml",
-              "ViewState": "AgIAAL4AAAAAAAAAAAAswLIAAABaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-06T15:06:43.152Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "DashboardView.cs",
-              "DocumentMoniker": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\Models\\DashboardView.cs",
-              "RelativeDocumentMoniker": "EstatePro\\Models\\DashboardView.cs",
-              "ToolTip": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\Models\\DashboardView.cs",
-              "RelativeToolTip": "EstatePro\\Models\\DashboardView.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAADwvxMAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-06T15:05:10.737Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "DashboardController.cs",
-              "DocumentMoniker": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\Controllers\\DashboardController.cs",
-              "RelativeDocumentMoniker": "EstatePro\\Controllers\\DashboardController.cs",
-              "ToolTip": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\Controllers\\DashboardController.cs",
-              "RelativeToolTip": "EstatePro\\Controllers\\DashboardController.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAAAA8AAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-06T15:01:18.483Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "DashboardService.cs",
-              "DocumentMoniker": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\Services\\DashboardService.cs",
-              "RelativeDocumentMoniker": "EstatePro\\Services\\DashboardService.cs",
-              "ToolTip": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\Services\\DashboardService.cs",
-              "RelativeToolTip": "EstatePro\\Services\\DashboardService.cs",
-              "ViewState": "AgIAAIoAAAAAAAAAAAAmwJEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-06T14:53:05.052Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "DashboardRepo.cs",
-              "DocumentMoniker": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\Repository\\DashboardRepo.cs",
-              "RelativeDocumentMoniker": "EstatePro\\Repository\\DashboardRepo.cs",
-              "ToolTip": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\Repository\\DashboardRepo.cs",
-              "RelativeToolTip": "EstatePro\\Repository\\DashboardRepo.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAA1wB4AAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-06T14:52:34.895Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 25,
               "Title": "Booking.cs",
               "DocumentMoniker": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\Models\\Booking.cs",
               "RelativeDocumentMoniker": "EstatePro\\Models\\Booking.cs",
               "ToolTip": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\Models\\Booking.cs",
               "RelativeToolTip": "EstatePro\\Models\\Booking.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAArAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-05T15:28:47.438Z"
+              "WhenOpened": "2025-06-08T17:55:10.119Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 13,
+              "Title": "BookingService.cs",
+              "DocumentMoniker": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\Services\\BookingService.cs",
+              "RelativeDocumentMoniker": "EstatePro\\Services\\BookingService.cs",
+              "ToolTip": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\Services\\BookingService.cs",
+              "RelativeToolTip": "EstatePro\\Services\\BookingService.cs",
+              "ViewState": "AgIAAEcAAAAAAAAAAAAcwFEAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-08T17:55:01.848Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "IBookingRepository.cs",
+              "DocumentMoniker": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\Repository\\IBookingRepository.cs",
+              "RelativeDocumentMoniker": "EstatePro\\Repository\\IBookingRepository.cs",
+              "ToolTip": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\Repository\\IBookingRepository.cs",
+              "RelativeToolTip": "EstatePro\\Repository\\IBookingRepository.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAkwAwAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-08T17:54:58.934Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "BookingController.cs",
+              "DocumentMoniker": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\Controllers\\BookingController.cs",
+              "RelativeDocumentMoniker": "EstatePro\\Controllers\\BookingController.cs",
+              "ToolTip": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\Controllers\\BookingController.cs",
+              "RelativeToolTip": "EstatePro\\Controllers\\BookingController.cs",
+              "ViewState": "AgIAADkAAAAAAAAAAAAAAEoAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-08T17:50:12.088Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Browse.cshtml",
+              "DocumentMoniker": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\Views\\Property\\Browse.cshtml",
+              "RelativeDocumentMoniker": "EstatePro\\Views\\Property\\Browse.cshtml",
+              "ToolTip": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\Views\\Property\\Browse.cshtml",
+              "RelativeToolTip": "EstatePro\\Views\\Property\\Browse.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAwBMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-08T17:36:30.999Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "BookingRequests.cshtml",
+              "DocumentMoniker": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\Views\\Booking\\BookingRequests.cshtml",
+              "RelativeDocumentMoniker": "EstatePro\\Views\\Booking\\BookingRequests.cshtml",
+              "ToolTip": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\Views\\Booking\\BookingRequests.cshtml",
+              "RelativeToolTip": "EstatePro\\Views\\Booking\\BookingRequests.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAH8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-08T17:33:37.744Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\Views\\Booking\\Index.cshtml",
+              "RelativeDocumentMoniker": "EstatePro\\Views\\Booking\\Index.cshtml",
+              "ToolTip": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\Views\\Booking\\Index.cshtml",
+              "RelativeToolTip": "EstatePro\\Views\\Booking\\Index.cshtml",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAAAFEAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-08T14:50:28.319Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "20250608141814_Test.cs",
+              "DocumentMoniker": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\Migrations\\20250608141814_Test.cs",
+              "RelativeDocumentMoniker": "EstatePro\\Migrations\\20250608141814_Test.cs",
+              "ToolTip": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\Migrations\\20250608141814_Test.cs",
+              "RelativeToolTip": "EstatePro\\Migrations\\20250608141814_Test.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-08T14:18:14.928Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "EstatePro\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "EstatePro\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAACsAAABqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-07T19:12:14.327Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "UserDashboardController.cs",
+              "DocumentMoniker": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\Controllers\\UserDashboardController.cs",
+              "RelativeDocumentMoniker": "EstatePro\\Controllers\\UserDashboardController.cs",
+              "ToolTip": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\Controllers\\UserDashboardController.cs",
+              "RelativeToolTip": "EstatePro\\Controllers\\UserDashboardController.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwA8AAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T12:49:22.148Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\Program.cs",
+              "RelativeDocumentMoniker": "EstatePro\\Program.cs",
+              "ToolTip": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\Program.cs",
+              "RelativeToolTip": "EstatePro\\Program.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAAAB4AAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-06T15:11:31.039Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DashboardController.cs",
+              "DocumentMoniker": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\Controllers\\DashboardController.cs",
+              "RelativeDocumentMoniker": "EstatePro\\Controllers\\DashboardController.cs",
+              "ToolTip": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\Controllers\\DashboardController.cs",
+              "RelativeToolTip": "EstatePro\\Controllers\\DashboardController.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAowEIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-06T15:01:18.483Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\Data\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "EstatePro\\Data\\ApplicationDbContext.cs",
               "ToolTip": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\Data\\ApplicationDbContext.cs",
               "RelativeToolTip": "EstatePro\\Data\\ApplicationDbContext.cs",
-              "ViewState": "AgIAAIQAAAAAAAAAAAAYwJkAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-05T14:58:50.065Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-05T14:58:50.065Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "Enums.cs",
               "DocumentMoniker": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\Models\\Enums.cs",
               "RelativeDocumentMoniker": "EstatePro\\Models\\Enums.cs",
               "ToolTip": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\Models\\Enums.cs",
               "RelativeToolTip": "EstatePro\\Models\\Enums.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAgwCQAAAAfAAAAAAAAAA==",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwA4AAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-04T17:26:12.587Z",
-              "EditorCaption": ""
-            }
-          ]
-        },
-        {
-          "DockedHeight": 200,
-          "SelectedChildIndex": -1,
-          "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+              "WhenOpened": "2025-06-04T17:26:12.587Z"
             }
           ]
         },

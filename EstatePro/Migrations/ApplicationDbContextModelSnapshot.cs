@@ -193,6 +193,28 @@ namespace EstatePro.Migrations
                     b.ToTable("Properties");
                 });
 
+            modelBuilder.Entity("EstatePro.Models.PropertyImage", b =>
+                {
+                    b.Property<int>("ImageId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ImageId"));
+
+                    b.Property<string>("ImageUrl")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("PropertyId")
+                        .HasColumnType("int");
+
+                    b.HasKey("ImageId");
+
+                    b.HasIndex("PropertyId");
+
+                    b.ToTable("PropertyImages");
+                });
+
             modelBuilder.Entity("EstatePro.Models.Rent", b =>
                 {
                     b.Property<int>("RentId")
@@ -350,6 +372,7 @@ namespace EstatePro.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("PhoneNumber")
+                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("ProfilePicture")
@@ -440,6 +463,17 @@ namespace EstatePro.Migrations
                     b.Navigation("Owner");
                 });
 
+            modelBuilder.Entity("EstatePro.Models.PropertyImage", b =>
+                {
+                    b.HasOne("EstatePro.Models.Property", "Property")
+                        .WithMany("Images")
+                        .HasForeignKey("PropertyId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Property");
+                });
+
             modelBuilder.Entity("EstatePro.Models.Rent", b =>
                 {
                     b.HasOne("EstatePro.Models.LeaseAgreement", "LeaseAgreement")
@@ -499,6 +533,8 @@ namespace EstatePro.Migrations
                     b.Navigation("Appointments");
 
                     b.Navigation("Bookings");
+
+                    b.Navigation("Images");
 
                     b.Navigation("LeaseAgreements");
 

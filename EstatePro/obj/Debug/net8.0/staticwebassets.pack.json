@@ -5,252 +5,40 @@
       "PackagePath": "staticwebassets\\EstatePro.wpcsrtl9na.bundle.scp.css"
     },
     {
-      "Id": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\wwwroot\\README.txt",
-      "PackagePath": "staticwebassets\\README.txt"
+      "Id": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\wwwroot\\Content\\img1.jpg",
+      "PackagePath": "staticwebassets\\Content\\img1.jpg"
     },
     {
-      "Id": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\wwwroot\\about.html",
-      "PackagePath": "staticwebassets\\about.html"
+      "Id": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\wwwroot\\Content\\img2.jpg",
+      "PackagePath": "staticwebassets\\Content\\img2.jpg"
     },
     {
-      "Id": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\wwwroot\\contact.html",
-      "PackagePath": "staticwebassets\\contact.html"
+      "Id": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\wwwroot\\Content\\img3.jpg",
+      "PackagePath": "staticwebassets\\Content\\img3.jpg"
     },
     {
-      "Id": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\wwwroot\\css\\aos.css",
-      "PackagePath": "staticwebassets\\css\\aos.css"
+      "Id": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\wwwroot\\Content\\img4.jpg",
+      "PackagePath": "staticwebassets\\Content\\img4.jpg"
     },
     {
-      "Id": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\wwwroot\\css\\bootstrap-grid.css",
-      "PackagePath": "staticwebassets\\css\\bootstrap-grid.css"
+      "Id": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\wwwroot\\Content\\img5.jpg",
+      "PackagePath": "staticwebassets\\Content\\img5.jpg"
     },
     {
-      "Id": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\wwwroot\\css\\bootstrap-reboot.css",
-      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.css"
+      "Id": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\wwwroot\\Content\\img6.jpg",
+      "PackagePath": "staticwebassets\\Content\\img6.jpg"
     },
     {
-      "Id": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\wwwroot\\css\\bootstrap-utilities.css",
-      "PackagePath": "staticwebassets\\css\\bootstrap-utilities.css"
+      "Id": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\wwwroot\\css\\bootstrap.css",
-      "PackagePath": "staticwebassets\\css\\bootstrap.css"
+      "Id": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\wwwroot\\css\\bootstrap\\mixins\\_text-truncate.css",
-      "PackagePath": "staticwebassets\\css\\bootstrap\\mixins\\_text-truncate.css"
-    },
-    {
-      "Id": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\wwwroot\\css\\dashboard.css",
-      "PackagePath": "staticwebassets\\css\\dashboard.css"
-    },
-    {
-      "Id": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\wwwroot\\css\\index.html",
-      "PackagePath": "staticwebassets\\css\\index.html"
-    },
-    {
-      "Id": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\wwwroot\\css\\style.css",
-      "PackagePath": "staticwebassets\\css\\style.css"
-    },
-    {
-      "Id": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\wwwroot\\css\\tiny-slider.css",
-      "PackagePath": "staticwebassets\\css\\tiny-slider.css"
-    },
-    {
-      "Id": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\wwwroot\\favicon.png",
-      "PackagePath": "staticwebassets\\favicon.png"
-    },
-    {
-      "Id": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\wwwroot\\fonts\\flaticon\\backup.txt",
-      "PackagePath": "staticwebassets\\fonts\\flaticon\\backup.txt"
-    },
-    {
-      "Id": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\wwwroot\\fonts\\flaticon\\font\\Flaticon.eot",
-      "PackagePath": "staticwebassets\\fonts\\flaticon\\font\\Flaticon.eot"
-    },
-    {
-      "Id": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\wwwroot\\fonts\\flaticon\\font\\Flaticon.svg",
-      "PackagePath": "staticwebassets\\fonts\\flaticon\\font\\Flaticon.svg"
-    },
-    {
-      "Id": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\wwwroot\\fonts\\flaticon\\font\\Flaticon.ttf",
-      "PackagePath": "staticwebassets\\fonts\\flaticon\\font\\Flaticon.ttf"
-    },
-    {
-      "Id": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\wwwroot\\fonts\\flaticon\\font\\Flaticon.woff",
-      "PackagePath": "staticwebassets\\fonts\\flaticon\\font\\Flaticon.woff"
-    },
-    {
-      "Id": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\wwwroot\\fonts\\flaticon\\font\\Flaticon.woff2",
-      "PackagePath": "staticwebassets\\fonts\\flaticon\\font\\Flaticon.woff2"
-    },
-    {
-      "Id": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\wwwroot\\fonts\\flaticon\\font\\_flaticon.scss",
-      "PackagePath": "staticwebassets\\fonts\\flaticon\\font\\_flaticon.scss"
-    },
-    {
-      "Id": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\wwwroot\\fonts\\flaticon\\font\\flaticon.css",
-      "PackagePath": "staticwebassets\\fonts\\flaticon\\font\\flaticon.css"
-    },
-    {
-      "Id": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\wwwroot\\fonts\\flaticon\\font\\flaticon.html",
-      "PackagePath": "staticwebassets\\fonts\\flaticon\\font\\flaticon.html"
-    },
-    {
-      "Id": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\wwwroot\\fonts\\flaticon\\license\\license.pdf",
-      "PackagePath": "staticwebassets\\fonts\\flaticon\\license\\license.pdf"
-    },
-    {
-      "Id": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\wwwroot\\fonts\\icomoon\\Read Me.txt",
-      "PackagePath": "staticwebassets\\fonts\\icomoon\\Read Me.txt"
-    },
-    {
-      "Id": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\wwwroot\\fonts\\icomoon\\demo-files\\demo.css",
-      "PackagePath": "staticwebassets\\fonts\\icomoon\\demo-files\\demo.css"
-    },
-    {
-      "Id": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\wwwroot\\fonts\\icomoon\\demo-files\\demo.js",
-      "PackagePath": "staticwebassets\\fonts\\icomoon\\demo-files\\demo.js"
-    },
-    {
-      "Id": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\wwwroot\\fonts\\icomoon\\demo.html",
-      "PackagePath": "staticwebassets\\fonts\\icomoon\\demo.html"
-    },
-    {
-      "Id": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\wwwroot\\fonts\\icomoon\\fonts\\icomoon.eot",
-      "PackagePath": "staticwebassets\\fonts\\icomoon\\fonts\\icomoon.eot"
-    },
-    {
-      "Id": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\wwwroot\\fonts\\icomoon\\fonts\\icomoon.svg",
-      "PackagePath": "staticwebassets\\fonts\\icomoon\\fonts\\icomoon.svg"
-    },
-    {
-      "Id": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\wwwroot\\fonts\\icomoon\\fonts\\icomoon.ttf",
-      "PackagePath": "staticwebassets\\fonts\\icomoon\\fonts\\icomoon.ttf"
-    },
-    {
-      "Id": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\wwwroot\\fonts\\icomoon\\fonts\\icomoon.woff",
-      "PackagePath": "staticwebassets\\fonts\\icomoon\\fonts\\icomoon.woff"
-    },
-    {
-      "Id": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\wwwroot\\fonts\\icomoon\\selection.json",
-      "PackagePath": "staticwebassets\\fonts\\icomoon\\selection.json"
-    },
-    {
-      "Id": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\wwwroot\\fonts\\icomoon\\style.css",
-      "PackagePath": "staticwebassets\\fonts\\icomoon\\style.css"
-    },
-    {
-      "Id": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\wwwroot\\fonts\\index.html",
-      "PackagePath": "staticwebassets\\fonts\\index.html"
-    },
-    {
-      "Id": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\wwwroot\\images\\dots.png",
-      "PackagePath": "staticwebassets\\images\\dots.png"
-    },
-    {
-      "Id": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\wwwroot\\images\\hero_bg_1.jpg",
-      "PackagePath": "staticwebassets\\images\\hero_bg_1.jpg"
-    },
-    {
-      "Id": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\wwwroot\\images\\hero_bg_2.jpg",
-      "PackagePath": "staticwebassets\\images\\hero_bg_2.jpg"
-    },
-    {
-      "Id": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\wwwroot\\images\\hero_bg_3.jpg",
-      "PackagePath": "staticwebassets\\images\\hero_bg_3.jpg"
-    },
-    {
-      "Id": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\wwwroot\\images\\img_1.jpg",
-      "PackagePath": "staticwebassets\\images\\img_1.jpg"
-    },
-    {
-      "Id": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\wwwroot\\images\\img_2.jpg",
-      "PackagePath": "staticwebassets\\images\\img_2.jpg"
-    },
-    {
-      "Id": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\wwwroot\\images\\img_3.jpg",
-      "PackagePath": "staticwebassets\\images\\img_3.jpg"
-    },
-    {
-      "Id": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\wwwroot\\images\\img_4.jpg",
-      "PackagePath": "staticwebassets\\images\\img_4.jpg"
-    },
-    {
-      "Id": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\wwwroot\\images\\img_5.jpg",
-      "PackagePath": "staticwebassets\\images\\img_5.jpg"
-    },
-    {
-      "Id": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\wwwroot\\images\\img_6.jpg",
-      "PackagePath": "staticwebassets\\images\\img_6.jpg"
-    },
-    {
-      "Id": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\wwwroot\\images\\img_7.jpg",
-      "PackagePath": "staticwebassets\\images\\img_7.jpg"
-    },
-    {
-      "Id": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\wwwroot\\images\\img_8.jpg",
-      "PackagePath": "staticwebassets\\images\\img_8.jpg"
-    },
-    {
-      "Id": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\wwwroot\\images\\index.html",
-      "PackagePath": "staticwebassets\\images\\index.html"
-    },
-    {
-      "Id": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\wwwroot\\images\\person_1-min.jpg",
-      "PackagePath": "staticwebassets\\images\\person_1-min.jpg"
-    },
-    {
-      "Id": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\wwwroot\\images\\person_2-min.jpg",
-      "PackagePath": "staticwebassets\\images\\person_2-min.jpg"
-    },
-    {
-      "Id": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\wwwroot\\images\\person_3-min.jpg",
-      "PackagePath": "staticwebassets\\images\\person_3-min.jpg"
-    },
-    {
-      "Id": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\wwwroot\\images\\person_4-min.jpg",
-      "PackagePath": "staticwebassets\\images\\person_4-min.jpg"
-    },
-    {
-      "Id": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\wwwroot\\images\\person_5-min.jpg",
-      "PackagePath": "staticwebassets\\images\\person_5-min.jpg"
-    },
-    {
-      "Id": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\wwwroot\\images\\person_6-min.jpg",
-      "PackagePath": "staticwebassets\\images\\person_6-min.jpg"
-    },
-    {
-      "Id": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\wwwroot\\index.html",
-      "PackagePath": "staticwebassets\\index.html"
-    },
-    {
-      "Id": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\wwwroot\\js\\aos.js",
-      "PackagePath": "staticwebassets\\js\\aos.js"
-    },
-    {
-      "Id": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\wwwroot\\js\\bootstrap.bundle.min.js",
-      "PackagePath": "staticwebassets\\js\\bootstrap.bundle.min.js"
-    },
-    {
-      "Id": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\wwwroot\\js\\counter.js",
-      "PackagePath": "staticwebassets\\js\\counter.js"
-    },
-    {
-      "Id": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\wwwroot\\js\\custom.js",
-      "PackagePath": "staticwebassets\\js\\custom.js"
-    },
-    {
-      "Id": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\wwwroot\\js\\index.html",
-      "PackagePath": "staticwebassets\\js\\index.html"
-    },
-    {
-      "Id": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\wwwroot\\js\\navbar.js",
-      "PackagePath": "staticwebassets\\js\\navbar.js"
-    },
-    {
-      "Id": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\wwwroot\\js\\tiny-slider.js",
-      "PackagePath": "staticwebassets\\js\\tiny-slider.js"
+      "Id": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
       "Id": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\wwwroot\\lib\\bootstrap\\LICENSE",
@@ -481,380 +269,132 @@
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Id": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\wwwroot\\prepros-6.config",
-      "PackagePath": "staticwebassets\\prepros-6.config"
+      "Id": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\wwwroot\\uploads\\240a787f-ec40-4b05-82ec-e1f76774aef4.png",
+      "PackagePath": "staticwebassets\\uploads\\240a787f-ec40-4b05-82ec-e1f76774aef4.png"
     },
     {
-      "Id": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\wwwroot\\properties.html",
-      "PackagePath": "staticwebassets\\properties.html"
+      "Id": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\wwwroot\\uploads\\24ea3af7-fdaf-4354-b36f-2cc39fcdf1a2.png",
+      "PackagePath": "staticwebassets\\uploads\\24ea3af7-fdaf-4354-b36f-2cc39fcdf1a2.png"
     },
     {
-      "Id": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\wwwroot\\scss\\bootstrap\\_accordion.scss",
-      "PackagePath": "staticwebassets\\scss\\bootstrap\\_accordion.scss"
+      "Id": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\wwwroot\\uploads\\28ac9fce-22ff-4dfc-9801-ebb172fdc063.png",
+      "PackagePath": "staticwebassets\\uploads\\28ac9fce-22ff-4dfc-9801-ebb172fdc063.png"
     },
     {
-      "Id": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\wwwroot\\scss\\bootstrap\\_alert.scss",
-      "PackagePath": "staticwebassets\\scss\\bootstrap\\_alert.scss"
+      "Id": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\wwwroot\\uploads\\3078e62e-1458-4136-9cbf-12851a3997b3.png",
+      "PackagePath": "staticwebassets\\uploads\\3078e62e-1458-4136-9cbf-12851a3997b3.png"
     },
     {
-      "Id": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\wwwroot\\scss\\bootstrap\\_badge.scss",
-      "PackagePath": "staticwebassets\\scss\\bootstrap\\_badge.scss"
+      "Id": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\wwwroot\\uploads\\33f3fc95-bd70-4319-a135-2046e8000ef5.png",
+      "PackagePath": "staticwebassets\\uploads\\33f3fc95-bd70-4319-a135-2046e8000ef5.png"
     },
     {
-      "Id": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\wwwroot\\scss\\bootstrap\\_breadcrumb.scss",
-      "PackagePath": "staticwebassets\\scss\\bootstrap\\_breadcrumb.scss"
+      "Id": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\wwwroot\\uploads\\354301da-1359-4134-b9b5-016ee4dbede3.jpg",
+      "PackagePath": "staticwebassets\\uploads\\354301da-1359-4134-b9b5-016ee4dbede3.jpg"
     },
     {
-      "Id": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\wwwroot\\scss\\bootstrap\\_button-group.scss",
-      "PackagePath": "staticwebassets\\scss\\bootstrap\\_button-group.scss"
+      "Id": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\wwwroot\\uploads\\4b54521c-5abb-45d2-b3c0-0e88b906909c.png",
+      "PackagePath": "staticwebassets\\uploads\\4b54521c-5abb-45d2-b3c0-0e88b906909c.png"
     },
     {
-      "Id": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\wwwroot\\scss\\bootstrap\\_buttons.scss",
-      "PackagePath": "staticwebassets\\scss\\bootstrap\\_buttons.scss"
+      "Id": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\wwwroot\\uploads\\4bb6ff70-37b3-4c8e-9982-7efff3e74ffd.png",
+      "PackagePath": "staticwebassets\\uploads\\4bb6ff70-37b3-4c8e-9982-7efff3e74ffd.png"
     },
     {
-      "Id": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\wwwroot\\scss\\bootstrap\\_card.scss",
-      "PackagePath": "staticwebassets\\scss\\bootstrap\\_card.scss"
+      "Id": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\wwwroot\\uploads\\5931527e-b262-442a-b01d-06e18086a95d.png",
+      "PackagePath": "staticwebassets\\uploads\\5931527e-b262-442a-b01d-06e18086a95d.png"
     },
     {
-      "Id": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\wwwroot\\scss\\bootstrap\\_carousel.scss",
-      "PackagePath": "staticwebassets\\scss\\bootstrap\\_carousel.scss"
+      "Id": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\wwwroot\\uploads\\6b69b1a0-65cb-4df4-9da2-592efc94afab.png",
+      "PackagePath": "staticwebassets\\uploads\\6b69b1a0-65cb-4df4-9da2-592efc94afab.png"
     },
     {
-      "Id": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\wwwroot\\scss\\bootstrap\\_close.scss",
-      "PackagePath": "staticwebassets\\scss\\bootstrap\\_close.scss"
+      "Id": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\wwwroot\\uploads\\6c21f2b3-926c-4fba-b81a-163ac0339ce1.png",
+      "PackagePath": "staticwebassets\\uploads\\6c21f2b3-926c-4fba-b81a-163ac0339ce1.png"
     },
     {
-      "Id": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\wwwroot\\scss\\bootstrap\\_containers.scss",
-      "PackagePath": "staticwebassets\\scss\\bootstrap\\_containers.scss"
+      "Id": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\wwwroot\\uploads\\71fc46bd-4025-4d13-bb2d-53036edbf7fe.png",
+      "PackagePath": "staticwebassets\\uploads\\71fc46bd-4025-4d13-bb2d-53036edbf7fe.png"
     },
     {
-      "Id": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\wwwroot\\scss\\bootstrap\\_dropdown.scss",
-      "PackagePath": "staticwebassets\\scss\\bootstrap\\_dropdown.scss"
+      "Id": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\wwwroot\\uploads\\78a0279f-12be-405b-9b09-e6b037bcbe43.gif",
+      "PackagePath": "staticwebassets\\uploads\\78a0279f-12be-405b-9b09-e6b037bcbe43.gif"
     },
     {
-      "Id": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\wwwroot\\scss\\bootstrap\\_forms.scss",
-      "PackagePath": "staticwebassets\\scss\\bootstrap\\_forms.scss"
+      "Id": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\wwwroot\\uploads\\7a0d1db0-af5e-4281-869a-52341d29aa13.png",
+      "PackagePath": "staticwebassets\\uploads\\7a0d1db0-af5e-4281-869a-52341d29aa13.png"
     },
     {
-      "Id": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\wwwroot\\scss\\bootstrap\\_functions.scss",
-      "PackagePath": "staticwebassets\\scss\\bootstrap\\_functions.scss"
+      "Id": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\wwwroot\\uploads\\82e9cb6d-cc25-4fec-bd32-d225fe5fec41.png",
+      "PackagePath": "staticwebassets\\uploads\\82e9cb6d-cc25-4fec-bd32-d225fe5fec41.png"
     },
     {
-      "Id": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\wwwroot\\scss\\bootstrap\\_grid.scss",
-      "PackagePath": "staticwebassets\\scss\\bootstrap\\_grid.scss"
+      "Id": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\wwwroot\\uploads\\9966ee63-fc70-45b2-8e22-ae576248a044.png",
+      "PackagePath": "staticwebassets\\uploads\\9966ee63-fc70-45b2-8e22-ae576248a044.png"
     },
     {
-      "Id": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\wwwroot\\scss\\bootstrap\\_helpers.scss",
-      "PackagePath": "staticwebassets\\scss\\bootstrap\\_helpers.scss"
+      "Id": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\wwwroot\\uploads\\9ec80c01-b35b-4e39-a9c0-b01d7c6bbbb4.png",
+      "PackagePath": "staticwebassets\\uploads\\9ec80c01-b35b-4e39-a9c0-b01d7c6bbbb4.png"
     },
     {
-      "Id": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\wwwroot\\scss\\bootstrap\\_images.scss",
-      "PackagePath": "staticwebassets\\scss\\bootstrap\\_images.scss"
+      "Id": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\wwwroot\\uploads\\a314af71-72a8-4431-95a0-a07f7dfd9fff.png",
+      "PackagePath": "staticwebassets\\uploads\\a314af71-72a8-4431-95a0-a07f7dfd9fff.png"
     },
     {
-      "Id": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\wwwroot\\scss\\bootstrap\\_list-group.scss",
-      "PackagePath": "staticwebassets\\scss\\bootstrap\\_list-group.scss"
+      "Id": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\wwwroot\\uploads\\a45fd850-4570-42fe-919b-7e3868e6bfbc.png",
+      "PackagePath": "staticwebassets\\uploads\\a45fd850-4570-42fe-919b-7e3868e6bfbc.png"
     },
     {
-      "Id": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\wwwroot\\scss\\bootstrap\\_mixins.scss",
-      "PackagePath": "staticwebassets\\scss\\bootstrap\\_mixins.scss"
+      "Id": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\wwwroot\\uploads\\ad4157bf-1c33-4fff-86f9-5c385b7fdd2f.jpg",
+      "PackagePath": "staticwebassets\\uploads\\ad4157bf-1c33-4fff-86f9-5c385b7fdd2f.jpg"
     },
     {
-      "Id": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\wwwroot\\scss\\bootstrap\\_modal.scss",
-      "PackagePath": "staticwebassets\\scss\\bootstrap\\_modal.scss"
+      "Id": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\wwwroot\\uploads\\aec385d6-93c5-47fa-8a2d-18f3015e8268.jpg",
+      "PackagePath": "staticwebassets\\uploads\\aec385d6-93c5-47fa-8a2d-18f3015e8268.jpg"
     },
     {
-      "Id": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\wwwroot\\scss\\bootstrap\\_nav.scss",
-      "PackagePath": "staticwebassets\\scss\\bootstrap\\_nav.scss"
+      "Id": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\wwwroot\\uploads\\b11706bc-dd64-4590-948b-8046b6f4579d.png",
+      "PackagePath": "staticwebassets\\uploads\\b11706bc-dd64-4590-948b-8046b6f4579d.png"
     },
     {
-      "Id": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\wwwroot\\scss\\bootstrap\\_navbar.scss",
-      "PackagePath": "staticwebassets\\scss\\bootstrap\\_navbar.scss"
+      "Id": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\wwwroot\\uploads\\b142e33f-d5f7-4a75-b2a9-496c981bf1e3.jpg",
+      "PackagePath": "staticwebassets\\uploads\\b142e33f-d5f7-4a75-b2a9-496c981bf1e3.jpg"
     },
     {
-      "Id": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\wwwroot\\scss\\bootstrap\\_offcanvas.scss",
-      "PackagePath": "staticwebassets\\scss\\bootstrap\\_offcanvas.scss"
+      "Id": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\wwwroot\\uploads\\bd92ba7d-df04-425b-8516-abdedad2fc40.png",
+      "PackagePath": "staticwebassets\\uploads\\bd92ba7d-df04-425b-8516-abdedad2fc40.png"
     },
     {
-      "Id": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\wwwroot\\scss\\bootstrap\\_pagination.scss",
-      "PackagePath": "staticwebassets\\scss\\bootstrap\\_pagination.scss"
+      "Id": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\wwwroot\\uploads\\c89e9a08-c42f-483b-bc2a-9b034ac013e3.png",
+      "PackagePath": "staticwebassets\\uploads\\c89e9a08-c42f-483b-bc2a-9b034ac013e3.png"
     },
     {
-      "Id": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\wwwroot\\scss\\bootstrap\\_placeholders.scss",
-      "PackagePath": "staticwebassets\\scss\\bootstrap\\_placeholders.scss"
+      "Id": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\wwwroot\\uploads\\c90ab0d4-8fa4-4444-b37c-5ca0bbc06851.gif",
+      "PackagePath": "staticwebassets\\uploads\\c90ab0d4-8fa4-4444-b37c-5ca0bbc06851.gif"
     },
     {
-      "Id": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\wwwroot\\scss\\bootstrap\\_popover.scss",
-      "PackagePath": "staticwebassets\\scss\\bootstrap\\_popover.scss"
+      "Id": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\wwwroot\\uploads\\c9145a6b-5481-4f08-93cd-66d9c1253cc2.png",
+      "PackagePath": "staticwebassets\\uploads\\c9145a6b-5481-4f08-93cd-66d9c1253cc2.png"
     },
     {
-      "Id": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\wwwroot\\scss\\bootstrap\\_progress.scss",
-      "PackagePath": "staticwebassets\\scss\\bootstrap\\_progress.scss"
+      "Id": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\wwwroot\\uploads\\d29fde13-3f0a-4dc7-b9f6-c1283845e091.png",
+      "PackagePath": "staticwebassets\\uploads\\d29fde13-3f0a-4dc7-b9f6-c1283845e091.png"
     },
     {
-      "Id": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\wwwroot\\scss\\bootstrap\\_reboot.scss",
-      "PackagePath": "staticwebassets\\scss\\bootstrap\\_reboot.scss"
+      "Id": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\wwwroot\\uploads\\efb5b633-eb35-44cb-a43b-66af5dbb4e0f.png",
+      "PackagePath": "staticwebassets\\uploads\\efb5b633-eb35-44cb-a43b-66af5dbb4e0f.png"
     },
     {
-      "Id": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\wwwroot\\scss\\bootstrap\\_root.scss",
-      "PackagePath": "staticwebassets\\scss\\bootstrap\\_root.scss"
+      "Id": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\wwwroot\\uploads\\fb3fda6e-25d1-470b-9b40-1293c441b865.png",
+      "PackagePath": "staticwebassets\\uploads\\fb3fda6e-25d1-470b-9b40-1293c441b865.png"
     },
     {
-      "Id": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\wwwroot\\scss\\bootstrap\\_spinners.scss",
-      "PackagePath": "staticwebassets\\scss\\bootstrap\\_spinners.scss"
+      "Id": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\wwwroot\\uploads\\fe48e103-ff08-4427-a1b7-ab4fb8f406c1.jpg",
+      "PackagePath": "staticwebassets\\uploads\\fe48e103-ff08-4427-a1b7-ab4fb8f406c1.jpg"
     },
     {
-      "Id": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\wwwroot\\scss\\bootstrap\\_tables.scss",
-      "PackagePath": "staticwebassets\\scss\\bootstrap\\_tables.scss"
-    },
-    {
-      "Id": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\wwwroot\\scss\\bootstrap\\_toasts.scss",
-      "PackagePath": "staticwebassets\\scss\\bootstrap\\_toasts.scss"
-    },
-    {
-      "Id": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\wwwroot\\scss\\bootstrap\\_tooltip.scss",
-      "PackagePath": "staticwebassets\\scss\\bootstrap\\_tooltip.scss"
-    },
-    {
-      "Id": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\wwwroot\\scss\\bootstrap\\_transitions.scss",
-      "PackagePath": "staticwebassets\\scss\\bootstrap\\_transitions.scss"
-    },
-    {
-      "Id": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\wwwroot\\scss\\bootstrap\\_type.scss",
-      "PackagePath": "staticwebassets\\scss\\bootstrap\\_type.scss"
-    },
-    {
-      "Id": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\wwwroot\\scss\\bootstrap\\_utilities.scss",
-      "PackagePath": "staticwebassets\\scss\\bootstrap\\_utilities.scss"
-    },
-    {
-      "Id": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\wwwroot\\scss\\bootstrap\\_variables.scss",
-      "PackagePath": "staticwebassets\\scss\\bootstrap\\_variables.scss"
-    },
-    {
-      "Id": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\wwwroot\\scss\\bootstrap\\bootstrap-grid.scss",
-      "PackagePath": "staticwebassets\\scss\\bootstrap\\bootstrap-grid.scss"
-    },
-    {
-      "Id": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\wwwroot\\scss\\bootstrap\\bootstrap-reboot.scss",
-      "PackagePath": "staticwebassets\\scss\\bootstrap\\bootstrap-reboot.scss"
-    },
-    {
-      "Id": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\wwwroot\\scss\\bootstrap\\bootstrap-utilities.scss",
-      "PackagePath": "staticwebassets\\scss\\bootstrap\\bootstrap-utilities.scss"
-    },
-    {
-      "Id": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\wwwroot\\scss\\bootstrap\\bootstrap.scss",
-      "PackagePath": "staticwebassets\\scss\\bootstrap\\bootstrap.scss"
-    },
-    {
-      "Id": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\wwwroot\\scss\\bootstrap\\forms\\_floating-labels.scss",
-      "PackagePath": "staticwebassets\\scss\\bootstrap\\forms\\_floating-labels.scss"
-    },
-    {
-      "Id": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\wwwroot\\scss\\bootstrap\\forms\\_form-check.scss",
-      "PackagePath": "staticwebassets\\scss\\bootstrap\\forms\\_form-check.scss"
-    },
-    {
-      "Id": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\wwwroot\\scss\\bootstrap\\forms\\_form-control.scss",
-      "PackagePath": "staticwebassets\\scss\\bootstrap\\forms\\_form-control.scss"
-    },
-    {
-      "Id": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\wwwroot\\scss\\bootstrap\\forms\\_form-range.scss",
-      "PackagePath": "staticwebassets\\scss\\bootstrap\\forms\\_form-range.scss"
-    },
-    {
-      "Id": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\wwwroot\\scss\\bootstrap\\forms\\_form-select.scss",
-      "PackagePath": "staticwebassets\\scss\\bootstrap\\forms\\_form-select.scss"
-    },
-    {
-      "Id": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\wwwroot\\scss\\bootstrap\\forms\\_form-text.scss",
-      "PackagePath": "staticwebassets\\scss\\bootstrap\\forms\\_form-text.scss"
-    },
-    {
-      "Id": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\wwwroot\\scss\\bootstrap\\forms\\_input-group.scss",
-      "PackagePath": "staticwebassets\\scss\\bootstrap\\forms\\_input-group.scss"
-    },
-    {
-      "Id": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\wwwroot\\scss\\bootstrap\\forms\\_labels.scss",
-      "PackagePath": "staticwebassets\\scss\\bootstrap\\forms\\_labels.scss"
-    },
-    {
-      "Id": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\wwwroot\\scss\\bootstrap\\forms\\_validation.scss",
-      "PackagePath": "staticwebassets\\scss\\bootstrap\\forms\\_validation.scss"
-    },
-    {
-      "Id": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\wwwroot\\scss\\bootstrap\\helpers\\_clearfix.scss",
-      "PackagePath": "staticwebassets\\scss\\bootstrap\\helpers\\_clearfix.scss"
-    },
-    {
-      "Id": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\wwwroot\\scss\\bootstrap\\helpers\\_colored-links.scss",
-      "PackagePath": "staticwebassets\\scss\\bootstrap\\helpers\\_colored-links.scss"
-    },
-    {
-      "Id": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\wwwroot\\scss\\bootstrap\\helpers\\_position.scss",
-      "PackagePath": "staticwebassets\\scss\\bootstrap\\helpers\\_position.scss"
-    },
-    {
-      "Id": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\wwwroot\\scss\\bootstrap\\helpers\\_ratio.scss",
-      "PackagePath": "staticwebassets\\scss\\bootstrap\\helpers\\_ratio.scss"
-    },
-    {
-      "Id": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\wwwroot\\scss\\bootstrap\\helpers\\_stacks.scss",
-      "PackagePath": "staticwebassets\\scss\\bootstrap\\helpers\\_stacks.scss"
-    },
-    {
-      "Id": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\wwwroot\\scss\\bootstrap\\helpers\\_stretched-link.scss",
-      "PackagePath": "staticwebassets\\scss\\bootstrap\\helpers\\_stretched-link.scss"
-    },
-    {
-      "Id": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\wwwroot\\scss\\bootstrap\\helpers\\_text-truncation.scss",
-      "PackagePath": "staticwebassets\\scss\\bootstrap\\helpers\\_text-truncation.scss"
-    },
-    {
-      "Id": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\wwwroot\\scss\\bootstrap\\helpers\\_visually-hidden.scss",
-      "PackagePath": "staticwebassets\\scss\\bootstrap\\helpers\\_visually-hidden.scss"
-    },
-    {
-      "Id": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\wwwroot\\scss\\bootstrap\\helpers\\_vr.scss",
-      "PackagePath": "staticwebassets\\scss\\bootstrap\\helpers\\_vr.scss"
-    },
-    {
-      "Id": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\wwwroot\\scss\\bootstrap\\mixins\\_alert.scss",
-      "PackagePath": "staticwebassets\\scss\\bootstrap\\mixins\\_alert.scss"
-    },
-    {
-      "Id": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\wwwroot\\scss\\bootstrap\\mixins\\_backdrop.scss",
-      "PackagePath": "staticwebassets\\scss\\bootstrap\\mixins\\_backdrop.scss"
-    },
-    {
-      "Id": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\wwwroot\\scss\\bootstrap\\mixins\\_border-radius.scss",
-      "PackagePath": "staticwebassets\\scss\\bootstrap\\mixins\\_border-radius.scss"
-    },
-    {
-      "Id": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\wwwroot\\scss\\bootstrap\\mixins\\_box-shadow.scss",
-      "PackagePath": "staticwebassets\\scss\\bootstrap\\mixins\\_box-shadow.scss"
-    },
-    {
-      "Id": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\wwwroot\\scss\\bootstrap\\mixins\\_breakpoints.scss",
-      "PackagePath": "staticwebassets\\scss\\bootstrap\\mixins\\_breakpoints.scss"
-    },
-    {
-      "Id": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\wwwroot\\scss\\bootstrap\\mixins\\_buttons.scss",
-      "PackagePath": "staticwebassets\\scss\\bootstrap\\mixins\\_buttons.scss"
-    },
-    {
-      "Id": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\wwwroot\\scss\\bootstrap\\mixins\\_caret.scss",
-      "PackagePath": "staticwebassets\\scss\\bootstrap\\mixins\\_caret.scss"
-    },
-    {
-      "Id": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\wwwroot\\scss\\bootstrap\\mixins\\_clearfix.scss",
-      "PackagePath": "staticwebassets\\scss\\bootstrap\\mixins\\_clearfix.scss"
-    },
-    {
-      "Id": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\wwwroot\\scss\\bootstrap\\mixins\\_color-scheme.scss",
-      "PackagePath": "staticwebassets\\scss\\bootstrap\\mixins\\_color-scheme.scss"
-    },
-    {
-      "Id": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\wwwroot\\scss\\bootstrap\\mixins\\_container.scss",
-      "PackagePath": "staticwebassets\\scss\\bootstrap\\mixins\\_container.scss"
-    },
-    {
-      "Id": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\wwwroot\\scss\\bootstrap\\mixins\\_deprecate.scss",
-      "PackagePath": "staticwebassets\\scss\\bootstrap\\mixins\\_deprecate.scss"
-    },
-    {
-      "Id": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\wwwroot\\scss\\bootstrap\\mixins\\_forms.scss",
-      "PackagePath": "staticwebassets\\scss\\bootstrap\\mixins\\_forms.scss"
-    },
-    {
-      "Id": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\wwwroot\\scss\\bootstrap\\mixins\\_gradients.scss",
-      "PackagePath": "staticwebassets\\scss\\bootstrap\\mixins\\_gradients.scss"
-    },
-    {
-      "Id": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\wwwroot\\scss\\bootstrap\\mixins\\_grid.scss",
-      "PackagePath": "staticwebassets\\scss\\bootstrap\\mixins\\_grid.scss"
-    },
-    {
-      "Id": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\wwwroot\\scss\\bootstrap\\mixins\\_image.scss",
-      "PackagePath": "staticwebassets\\scss\\bootstrap\\mixins\\_image.scss"
-    },
-    {
-      "Id": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\wwwroot\\scss\\bootstrap\\mixins\\_list-group.scss",
-      "PackagePath": "staticwebassets\\scss\\bootstrap\\mixins\\_list-group.scss"
-    },
-    {
-      "Id": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\wwwroot\\scss\\bootstrap\\mixins\\_lists.scss",
-      "PackagePath": "staticwebassets\\scss\\bootstrap\\mixins\\_lists.scss"
-    },
-    {
-      "Id": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\wwwroot\\scss\\bootstrap\\mixins\\_pagination.scss",
-      "PackagePath": "staticwebassets\\scss\\bootstrap\\mixins\\_pagination.scss"
-    },
-    {
-      "Id": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\wwwroot\\scss\\bootstrap\\mixins\\_reset-text.scss",
-      "PackagePath": "staticwebassets\\scss\\bootstrap\\mixins\\_reset-text.scss"
-    },
-    {
-      "Id": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\wwwroot\\scss\\bootstrap\\mixins\\_resize.scss",
-      "PackagePath": "staticwebassets\\scss\\bootstrap\\mixins\\_resize.scss"
-    },
-    {
-      "Id": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\wwwroot\\scss\\bootstrap\\mixins\\_table-variants.scss",
-      "PackagePath": "staticwebassets\\scss\\bootstrap\\mixins\\_table-variants.scss"
-    },
-    {
-      "Id": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\wwwroot\\scss\\bootstrap\\mixins\\_text-truncate.scss",
-      "PackagePath": "staticwebassets\\scss\\bootstrap\\mixins\\_text-truncate.scss"
-    },
-    {
-      "Id": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\wwwroot\\scss\\bootstrap\\mixins\\_transition.scss",
-      "PackagePath": "staticwebassets\\scss\\bootstrap\\mixins\\_transition.scss"
-    },
-    {
-      "Id": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\wwwroot\\scss\\bootstrap\\mixins\\_utilities.scss",
-      "PackagePath": "staticwebassets\\scss\\bootstrap\\mixins\\_utilities.scss"
-    },
-    {
-      "Id": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\wwwroot\\scss\\bootstrap\\mixins\\_visually-hidden.scss",
-      "PackagePath": "staticwebassets\\scss\\bootstrap\\mixins\\_visually-hidden.scss"
-    },
-    {
-      "Id": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\wwwroot\\scss\\bootstrap\\utilities\\_api.scss",
-      "PackagePath": "staticwebassets\\scss\\bootstrap\\utilities\\_api.scss"
-    },
-    {
-      "Id": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\wwwroot\\scss\\bootstrap\\vendor\\_rfs.scss",
-      "PackagePath": "staticwebassets\\scss\\bootstrap\\vendor\\_rfs.scss"
-    },
-    {
-      "Id": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\wwwroot\\scss\\components\\_site-base.scss",
-      "PackagePath": "staticwebassets\\scss\\components\\_site-base.scss"
-    },
-    {
-      "Id": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\wwwroot\\scss\\components\\_site-blocks.scss",
-      "PackagePath": "staticwebassets\\scss\\components\\_site-blocks.scss"
-    },
-    {
-      "Id": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\wwwroot\\scss\\components\\_site-footer.scss",
-      "PackagePath": "staticwebassets\\scss\\components\\_site-footer.scss"
-    },
-    {
-      "Id": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\wwwroot\\scss\\components\\_site-navbar.scss",
-      "PackagePath": "staticwebassets\\scss\\components\\_site-navbar.scss"
-    },
-    {
-      "Id": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\wwwroot\\scss\\index.html",
-      "PackagePath": "staticwebassets\\scss\\index.html"
-    },
-    {
-      "Id": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\wwwroot\\scss\\style.scss",
-      "PackagePath": "staticwebassets\\scss\\style.scss"
-    },
-    {
-      "Id": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\wwwroot\\services.html",
-      "PackagePath": "staticwebassets\\services.html"
+      "Id": "D:\\MTS\\Project3\\EstatePro\\EstatePro\\wwwroot\\uploads\\ff3e9015-ff3c-4711-9de4-6eb6b1a9464e.jpg",
+      "PackagePath": "staticwebassets\\uploads\\ff3e9015-ff3c-4711-9de4-6eb6b1a9464e.jpg"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.EstatePro.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",

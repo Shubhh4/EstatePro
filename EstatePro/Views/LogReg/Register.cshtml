@@ -1,0 +1,53 @@
+﻿@model User
+
+@{
+    ViewData["Title"] = "Register";
+}
+
+<h2>Register</h2>
+
+@if (TempData["Error"] != null)
+{
+    <div class="alert alert-danger">@TempData["Error"]</div>
+}
+
+<form asp-action="Register" method="post">
+    <div class="form-group">
+        <label asp-for="FirstName"></label>
+        <input asp-for="FirstName" class="form-control" />
+        <span asp-validation-for="FirstName" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="LastName"></label>
+        <input asp-for="LastName" class="form-control" />
+        <span asp-validation-for="LastName" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Email"></label>
+        <input asp-for="Email" class="form-control" />
+        <span asp-validation-for="Email" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="PhoneNumber"></label>
+        <input asp-for="PhoneNumber" class="form-control" />
+        <span asp-validation-for="PhoneNumber" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="PasswordHash">Password</label>
+        <input asp-for="PasswordHash" type="password" class="form-control" />
+        <span asp-validation-for="PasswordHash" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Role">Role</label>
+        <select asp-for="Role" asp-items="ViewBag.RoleList" class="form-control"></select>
+        <span asp-validation-for="Role" class="text-danger"></span>
+    </div>
+    <br />
+    <button type="submit" class="btn btn-primary">Register</button>
+    <a asp-action="Login">Already Registered?</a>
+</form>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

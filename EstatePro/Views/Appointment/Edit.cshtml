@@ -1,0 +1,53 @@
+﻿@model Appointment
+
+@{
+    ViewData["Title"] = "Edit Appointment";
+
+    var formattedDate = Model.AppointmentDate.HasValue
+        ? Model.AppointmentDate.Value.ToString("yyyy-MM-ddTHH:mm")
+        : "";
+}
+
+<h2>Edit Appointment</h2>
+
+<form asp-action="Edit" method="post">
+    <input type="hidden" asp-for="AppointmentId" />
+
+    <div class="form-group">
+        <label asp-for="PropertyId" class="control-label"></label>
+        <select asp-for="PropertyId" asp-items="ViewBag.Properties" class="form-control"></select>
+        <span asp-validation-for="PropertyId" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="UserId" class="control-label"></label>
+        <select asp-for="UserId" asp-items="ViewBag.Users" class="form-control"></select>
+        <span asp-validation-for="UserId" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="AppointmentDate" class="control-label"></label>
+        <input name="AppointmentDate" type="datetime-local" class="form-control" value="@formattedDate" />
+        <span asp-validation-for="AppointmentDate" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Status" class="control-label"></label>
+        <select asp-for="Status" class="form-control">
+            <option value="">-- Select Status --</option>
+            <option value="Pending" selected="@(Model.Status == AppointmentStatus.Pending)">Pending</option>
+            <option value="Confirmed" selected="@(Model.Status == AppointmentStatus.Confirmed)">Confirmed</option>
+            <option value="Cancelled" selected="@(Model.Status == AppointmentStatus.Cancelled)">Cancelled</option>
+        </select>
+        <span asp-validation-for="Status" class="text-danger"></span>
+    </div>
+
+    <button type="submit" class="btn btn-success">Update</button>
+    <a asp-action="Index" class="btn btn-secondary">Cancel</a>
+</form>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

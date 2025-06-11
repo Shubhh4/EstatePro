@@ -13,7 +13,7 @@ namespace EstatePro.Controllers
         }
         public IActionResult Index()
         {
-            int userId = 3;
+            int userId = (int)HttpContext.Session.GetInt32("UserId");
             var role = drepo.GetRole(userId).ToString();
 
             var viewModel = new DashboardView();

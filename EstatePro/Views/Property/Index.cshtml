@@ -1,0 +1,49 @@
+﻿@model IEnumerable<Property>
+
+<a asp-controller="Property" asp-action="Create" class="btn btn-sm btn-success">Add Property</a>
+<br />
+<table class="table">
+    <thead>
+        <tr>
+            <th>Title</th>
+            <th>Description</th>
+            <th>Address</th>
+            <th>City</th>
+            <th>State</th>
+            <th>Zip code</th>
+            <th>Price</th>
+            <th>Property Type</th>
+            <th>Listing Type</th>
+            <th>Status</th>
+            <th>Images</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var p in Model)
+        {
+            <tr>
+                <td>@p.Title</td>
+                <td>@p.Description</td>
+                <td>@p.Address</td>
+                <td>@p.City</td>
+                <td>@p.State</td>
+                <td>@p.ZipCode</td>
+                <td>@p.Price</td>
+                <td>@p.PropertyType</td>
+                <td>@p.ListingType</td>
+                <td>@p.Status</td>
+                <td>
+                    @foreach (var img in p.Images)
+                    {
+                        <img src="@img.ImageUrl" width="60" height="60" style="object-fit: cover;" />
+                    }
+                </td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@p.PropertyId" class="btn btn-sm btn-warning">Edit</a>
+                    <a asp-action="Delete" asp-route-id="@p.PropertyId" class="btn btn-sm btn-danger">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

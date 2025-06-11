@@ -1,0 +1,57 @@
+﻿@model IEnumerable<Appointment>
+@using EstatePro.Models
+@{
+    ViewData["Title"] = "Appointments";
+    var userRole = Context.Session.GetString("UserRole"); // Fetch role from session
+}
+
+<h2>Appointments</h2>
+@* <a asp-action="Create" class="btn btn-primary mb-3">Create New Appointment</a> *@
+
+<table class="table table-bordered table-striped">
+    <thead class="table-dark">
+        <tr>
+            <th>Property</th>
+            <th>User</th>
+            <th>Appointment Date</th>
+            <th>Status</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.Property?.Title</td>
+                <td>@item.User?.Email</td>
+                <td>@item.AppointmentDate?.ToString("g")</td>
+                <td>
+                    @switch (item.Status)
+                    {
+                        case AppointmentStatus.Pending:
+                            <span class="badge bg-warning text-dark">Pending</span>
+                            break;
+                        case AppointmentStatus.Confirmed:
+                            <span class="badge bg-success">Accepted</span>
+                            break;
+                        case AppointmentStatus.Cancelled:
+                            <span class="badge bg-danger">Rejected</span>
+                            break;
+                    }
+                </td>
+                <td>
+                    <div class="btn-group" role="group">
+                        @if (item.Status == AppointmentStatus.Pending
+                       && (userRole == "Admin" || userRole == "Agent" || userRole == "Seller"))
+                        {
+                            <a asp-action="UpdateStatus" asp-route-id="@item.AppointmentId" asp-route-status="Confirmed" class="btn btn-sm btn-success">Accept</a>
+                            <a asp-action="UpdateStatus" asp-route-id="@item.AppointmentId" asp-route-status="Cancelled" class="btn btn-sm btn-danger">Reject</a>
+                        }
+                        <a asp-action="Details" asp-route-id="@item.AppointmentId" class="btn btn-sm btn-info">Details</a>
+                        <a asp-action="Delete" asp-route-id="@item.AppointmentId" class="btn btn-sm btn-secondary">Delete</a>
+                    </div>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

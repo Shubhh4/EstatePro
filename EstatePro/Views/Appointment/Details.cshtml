@@ -1,0 +1,24 @@
+﻿@model Appointment
+
+@{
+    ViewData["Title"] = "Appointment Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <dl class="row">
+        <dt class="col-sm-2">Property</dt>
+        <dd class="col-sm-10">@Model.Property?.Title</dd>
+
+        <dt class="col-sm-2">User</dt>
+        <dd class="col-sm-10">@Model.User?.Email</dd>
+
+        <dt class="col-sm-2">Date</dt>
+        <dd class="col-sm-10">@Model.AppointmentDate?.ToString("f")</dd>
+
+        <dt class="col-sm-2">Status</dt>
+        <dd class="col-sm-10">@Model.Status</dd>
+    </dl>
+</div>
+<a asp-action="Index" class="btn btn-secondary">Back to List</a>

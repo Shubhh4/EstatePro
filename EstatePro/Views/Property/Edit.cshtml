@@ -1,0 +1,79 @@
+﻿@model Property
+
+<h2>Edit Property</h2>
+
+<form asp-action="Edit" method="post" enctype="multipart/form-data">
+    <input type="hidden" asp-for="PropertyId" />
+
+    <div class="form-group">
+        <label>Title</label>
+        <input asp-for="Title" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label>Description</label>
+        <input asp-for="Description" class="form-control" />
+        <span asp-validation-for="Description" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label>Address</label>
+        <input asp-for="Address" class="form-control" />
+        <span asp-validation-for="Address" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label>City</label>
+        <input asp-for="City" class="form-control" />
+        <span asp-validation-for="City" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label>State</label>
+        <input asp-for="State" class="form-control" />
+        <span asp-validation-for="State" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label>Zip Code</label>
+        <input asp-for="ZipCode" class="form-control" />
+        <span asp-validation-for="ZipCode" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label>Price</label>
+        <input asp-for="Price" class="form-control" />
+    </div>
+
+    <div class="form-group">
+        <label>Property Type</label>
+        <select asp-for="PropertyType" asp-items="ViewBag.PropertyTypes" class="form-control"></select>
+    </div>
+
+    <div class="form-group">
+        <label>Listing Type</label>
+        <select asp-for="ListingType" asp-items="ViewBag.ListingTypes" class="form-control"></select>
+    </div>
+
+    <div class="form-group">
+        <label>Status</label>
+        <select asp-for="Status" asp-items="ViewBag.Statuses" class="form-control"></select>
+    </div>
+
+    <div class="form-group">
+        <label>Upload New Images</label>
+        <input type="file" name="images" multiple class="form-control" />
+    </div>
+
+    <div class="form-group">
+        <label>Existing Images</label>
+        <div>
+            @foreach (var img in Model.Images)
+            {
+                <img src="@img.ImageUrl" width="100" height="100" style="margin:5px;" />
+            }
+        </div>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Update</button>
+    <a asp-action="Index" class="btn btn-secondary">Cancel</a>
+</form>

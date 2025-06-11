@@ -31,6 +31,7 @@
 
     public enum BookingStatus
     {
+        Confirmed,
         Pending,           // Booking made
         ConfirmedByTenant, // Tenant confirmed interest
         AcceptedByAdmin,   // Admin/Agent/Seller accepted

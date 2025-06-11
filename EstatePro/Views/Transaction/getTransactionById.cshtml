@@ -1,0 +1,124 @@
+﻿@model List<Transaction>
+
+<h2>Transaction History</h2>
+@if (Model != null && Model.Any())
+{
+    <!-- Filters -->
+    <div class="row mb-3">
+        <div class="col-md-2">
+            <input type="text" id="idFilter" class="form-control" placeholder="Search by ID" />
+        </div>
+        <div class="col-md-2">
+            <input type="text" id="propertyFilter" class="form-control" placeholder="Search by Property" />
+        </div>
+        <div class="col-md-2">
+            <input type="text" id="amountFilter" class="form-control" placeholder="Search by Amount" />
+        </div>
+        <div class="col-md-2">
+            <input type="date" id="dateFilter" class="form-control" />
+        </div>
+    </div>
+
+    <table id="buyertransactionTable" class="table table-bordered">
+        <thead class="table-dark">
+            <tr>
+                <th>ID</th>
+                <th>User</th>
+                <th>Property</th>
+                <th>Amount</th>
+                <th>Method</th>
+                <th>Status</th>
+                <th>Date</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var t in Model)
+            {
+                <tr>
+                    <td>@t.TransactionId</td>
+                    <td>@t.Booking.User.FirstName @t.Booking.User.LastName</td>
+                    <td>@t.Booking.Property.Title</td>
+                    <td>@t.Amount</td>
+                    <td>@t.PaymentMethod</td>
+                    <td>@t.PaymentStatus</td>
+                    <td>@t.TransactionDate.ToString("yyyy-MM-dd")</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <p>No Transaction Found</p>
+}
+
+<!-- jQuery and DataTables -->
+<script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+<script src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js"></script>
+<script src="https://cdn.datatables.net/buttons/2.4.2/js/dataTables.buttons.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.2.7/pdfmake.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.2.7/vfs_fonts.js"></script>
+<script src="https://cdn.datatables.net/buttons/2.4.2/js/buttons.html5.min.js"></script>
+<script src="https://cdn.datatables.net/buttons/2.4.2/js/buttons.print.min.js"></script>
+
+<!--Datatable-->
+<script>
+    $(document).ready(function () {
+        var table = $('#transactionTable').DataTable({
+            dom: 'Bfrtip',
+            buttons: ['copy', 'excel', 'pdf', 'print']
+        });
+
+        // Filters for each column
+        $('#idFilter').on('keyup', function () {
+            table.column(0).search(this.value).draw(); // ID
+        });
+
+        $('#userFilter').on('keyup', function () {
+            table.column(1).search(this.value).draw(); // User
+        });
+        $('#mailFilter').on('keyup', function () {
+            table.column(2).search(this.value).draw(); // email
+        });
+
+        $('#propertyFilter').on('keyup', function () {
+            table.column(3).search(this.value).draw(); // Property
+        });
+
+        $('#amountFilter').on('keyup', function () {
+            table.column(4).search(this.value).draw(); // Amount
+        });
+
+        $('#dateFilter').on('change', function () {
+            table.column(7).search(this.value).draw(); // Date
+        });
+    });
+</script>
+
+<!--for buyer transaction-->
+<script>
+    $(document).ready(function () {
+        var table = $('#buyertransactionTable').DataTable({
+            dom: 'Bfrtip',
+            buttons: ['copy', 'excel', 'pdf', 'print']
+        });
+
+        // Filters for each column
+        $('#idFilter').on('keyup', function () {
+            table.column(0).search(this.value).draw(); // ID
+        });
+
+        $('#propertyFilter').on('keyup', function () {
+            table.column(2).search(this.value).draw(); // Property
+        });
+
+        $('#amountFilter').on('keyup', function () {
+            table.column(3).search(this.value).draw(); // Amount
+        });
+
+        $('#dateFilter').on('change', function () {
+            table.column(6).search(this.value).draw(); // Date
+        });
+    });
+</script>

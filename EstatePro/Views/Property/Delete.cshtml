@@ -1,0 +1,35 @@
+﻿@model Property
+
+<h2>Delete Property</h2>
+
+<div class="alert alert-danger">
+    <p>Are you sure you want to delete <strong>@Model.Title</strong>?</p>
+</div>
+
+<form asp-controller="Property" asp-action="DeleteConfirmed" method="post">
+    @Html.AntiForgeryToken()
+    <input type="hidden" name="id" value="@Model.PropertyId" />
+
+    <div class="form-group">
+        <label>Title:</label>
+        <p>@Model.Title</p>
+    </div>
+
+    <div class="form-group">
+        <label>Price:</label>
+        <p>@Model.Price</p>
+    </div>
+
+    <div class="form-group">
+        <label>Images:</label>
+        <div>
+            @foreach (var img in Model.Images)
+            {
+                <img src="@img.ImageUrl" width="100" height="100" style="margin:5px;" />
+            }
+        </div>
+    </div>
+
+    <button type="submit" class="btn btn-danger">Delete</button>
+    <a asp-action="Index" class="btn btn-secondary">Cancel</a>
+</form>

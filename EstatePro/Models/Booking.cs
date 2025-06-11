@@ -22,6 +22,5 @@ namespace EstatePro.Models
         public User User { get; set; }
 
         public List<Transaction> Transactions { get; set; }
-
     }
 }

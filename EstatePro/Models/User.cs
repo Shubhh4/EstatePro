@@ -19,6 +19,7 @@ namespace EstatePro.Models
         [Required]
         public string? PasswordHash { get; set; }
 
+        [Required]
         [Phone]
         public string? PhoneNumber { get; set; }
 
